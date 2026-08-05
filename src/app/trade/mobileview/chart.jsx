@@ -1,0 +1,121 @@
+import React, { useEffect, useState } from 'react'
+import { Nav, Tab, Image } from 'react-bootstrap';
+import Depthchart from './depthchart'
+
+export const page = () => {
+
+    // const [activeTab, setActiveTab] = useState("price-chart");
+
+    const theme = "dark";
+
+    useEffect(() => {
+
+        if (theme == 'dark') {
+            const iframes = document.querySelectorAll('.tradechartlist iframe');
+
+            iframes.forEach(iframe => {
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                const body = iframeDoc.body;
+                body.classList.add('nightmode');
+            });
+        }
+
+        const iframes = document.querySelectorAll('.tradechartlist iframe');
+
+        iframes.forEach(iframe => {
+            const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+            const body = iframeDoc.body;
+            body.classList.add('nightmode');
+        });
+
+        const script = document.createElement('script');
+        script.src = 'https://s3.tradingview.com/tv.js';
+        script.async = true;
+
+        script.onload = () => {
+            new window.TradingView.widget({
+                "autosize": true,
+                "fullscreen": true,
+                "symbol": "Binance:BTCUSD",
+                "interval": "5",
+                "timezone": "UTC",
+                "toolbar_bg": "#fff",
+                "theme": "Light",
+                "style": "1",
+                "locale": "en",
+                "enable_publishing": false,
+                "allow_symbol_change": false,
+                "container_id": "tradingview_49396",
+                "withdateranges": true,
+                "hide_side_toolbar": false,
+                "hide_legend": true
+            });
+        };
+        document.body.appendChild(script);
+    }, []);
+
+    return (
+        <div className="chart griddragoption">
+            <Tab.Container defaultActiveKey="tradechart">
+                <div className='liveprice-chart-tab'>
+                    <div className="innerpagetab historytab custom-trade-chart">
+                        <Nav variant="pills" className="tabbanner gap-1 border-0">
+                            <Nav.Item>
+                                <Nav.Link eventKey="tradechart">
+                                    <Image src="./assets/images/bar-chart-bars.svg" className='trade-chart-icon'></Image>
+                                </Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="marketdepth">
+                                    <Image src="./assets/images/depth-chart.svg" className='trade-chart-icon'></Image>
+                                </Nav.Link>
+                            </Nav.Item>
+                        </Nav>
+                    </div>
+                    <div id="livepriceacco" className="collapse">
+                        <Tab.Content className="">
+                            <Tab.Pane eventKey="tradechart" className="tradechartlist">
+                                <div className="tradingview-widget-container">
+                                    <div id="tradingview_49396"></div>
+                                </div>
+
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="marketdepth" className="marketchart">
+                                <Depthchart />
+                            </Tab.Pane>
+                        </Tab.Content>
+                    </div>
+                </div>
+            </Tab.Container>
+
+            {/* <Tab.Container defaultActiveKey="tradechart">
+                <div className="innerpagetab historytab custom-trade-chart">
+                    <Nav variant="pills" className="tabbanner gap-1 border-0">
+                        <Nav.Item>
+                            <Nav.Link eventKey="tradechart">
+                                <Image src="./assets/images/bar-chart-bars.svg" className='trade-chart-icon'></Image>
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="marketdepth">
+                                <Image src="./assets/images/depth-chart.svg" className='trade-chart-icon'></Image>
+                            </Nav.Link>
+                        </Nav.Item>
+                    </Nav>
+                </div>
+                <Tab.Content className="contentbox">
+                    <Tab.Pane eventKey="tradechart" className="tradechartlist">
+                        <div className="tradingview-widget-container">
+                            <div id="tradingview_49396"></div>
+                        </div>
+
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="marketdepth" className="marketchart">
+                        <Depthchart />
+                    </Tab.Pane>
+                </Tab.Content>
+            </Tab.Container> */}
+        </div>
+    )
+}
+export default page;
