@@ -1,0 +1,3628 @@
+@media (max-width:767px) {
+
+    .sitebtn {
+        font-family: "Inter", sans-serif !important;
+    }
+
+    .secttable h3 {
+        line-height: 27px;
+    }
+
+    .secttable>div .del-accout-li {
+        padding-left: 15px;
+        font-size: 13px;
+    }
+
+    .chat .chat-body p {
+        font-size: 13px !important;
+    }
+
+    body {
+        padding-bottom: 80px !important;
+        font-family: "Inter", sans-serif !important;
+        background-color: #fff !important;
+    }
+
+    .loginbanner {
+        display: block !important;
+        background-image: none !important;
+    }
+
+    .mobilebg .humberbutton a {
+        font-size: 16px;
+        color: #0A0A0C !important;
+        display: flex;
+    }
+
+    .mobilebg .humberbutton .menubtn {
+        background: none;
+    }
+
+    .mbheadingbox {
+        display: flex;
+        /* justify-content: space-between; */
+        /* gap: 10px; */
+        width: 100%;
+        align-items: center;
+        padding: 8px 0px;
+        position: relative;
+        z-index: 500;
+    }
+
+    .humberbutton {
+        width: 47px;
+        height: 40px;
+        background: #EEEEEE;
+        border-radius: 66px;
+        text-align: center;
+        cursor: pointer !important;
+        border: 1px solid #CDCDCD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cryptdetbox.table-content>div {
+        width: 100% !important;
+    }
+
+    .bckbtn {
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: left;
+        margin-top: -70px !important;
+        margin-bottom: 30px;
+    }
+
+    .flex-one-cls h2 {
+        font-family: "Inter", sans-serif !important;
+        font-size: 20px !important;
+    }
+
+    .siteformbg .input-group-text {
+        color: #001c2385;
+    }
+
+    .rightsideformbox p {
+        font-size: 14px !important;
+    }
+
+    .rightsideformbox p .bold {
+        font-weight: 700 !important;
+    }
+
+    .formbg .container {
+        margin: 0 16px !important;
+    }
+
+    .cryptdetbox.table-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cryptdetbox.table-content>div {
+        width: 100%;
+        padding-right: 0 !important;
+    }
+
+    .red-btn-main,
+    .green-btn-main {
+        padding: 6px 55px;
+        border-radius: 50px;
+        background-color: #FF5656;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        width: 100%;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .green-btn-main {
+        background-color: #00C48D;
+    }
+
+    .red-btn-main:hover,
+    .red-btn-main:active {
+        background-color: #fd6363 !important;
+
+    }
+
+    .green-btn-main:hover,
+    .green-btn-main:active {
+        background-color: #02ad7d !important;
+    }
+
+    .siteformbg .form-control,
+    .siteformbg .input-group-text,
+    .form-check .form-check-input {
+        border-color: #c7c7c7;
+        background: #F7F7F7;
+        border: 1px solid #CDCDCD;
+        border-radius: 10px;
+    }
+
+    .wallet-search-move .input-group-text,
+    .wallet-search-move .form-control {
+        border-color: transparent;
+        background: transparent;
+        margin: 0px;
+    }
+
+    .siteformbg .form-control::placeholder {
+        color: #c7c7c7 !important;
+    }
+
+    .innerpagegrid .wllettable .tabbanner .nav-item .nav-link {
+        font-size: 14px !important;
+        padding: 5px 8px !important;
+    }
+
+    .wallet-search-main {
+        border-color: #c7c7c7;
+        background: #F7F7F7;
+        border: 1px solid #CDCDCD;
+        border-radius: 10px;
+        padding: 0;
+    }
+
+    .form-check .form-check-input {
+        border-radius: 4px;
+    }
+
+    .siteformbg .form-control,
+    .siteformbg .input-group-text {
+        height: 44px;
+    }
+
+    .modal .modal-header {
+        border-bottom: 1px dashed #CCCCCC;
+        padding: 20px !important;
+    }
+
+    .modal .modal-header .btn-close {
+        width: 15px;
+        height: 20px;
+        background-color: #FF5656;
+        position: static;
+    }
+
+    .wllettable .tabrightbox {
+        padding: 4px !important;
+    }
+
+    .modalbgt .modal-body {
+        padding: 20px !important;
+    }
+
+    .code-box {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .code-box .form-control {
+        text-align: center;
+    }
+
+    .modal p .bold {
+        font-weight: 700 !important;
+    }
+
+    .gray-btn {
+        background: #E5E5E5 !important;
+        color: #7B7C87 !important;
+    }
+
+    .gray-btn:hover {
+        background: #bebdbdc5 !important;
+    }
+
+    .sitebtn,
+    .borderbtn,
+    .gray-btn {
+        font-weight: 500 !important;
+        width: 100%;
+        font-size: 13px !important;
+        padding: 14px !important;
+    }
+
+    .btn-check:checked+.btn,
+    .btn.active,
+    .btn.show,
+    .btn:first-child:active,
+    :not(.btn-check)+.btn:active {
+        background-color: #0ABAB5;
+    }
+
+    .menu-bar,
+    .mobile-img {
+        width: 100%;
+        max-width: 17px;
+    }
+
+    .mobile-img {
+        max-width: 54px;
+        background-color: #F7F7F7;
+        padding: 14px;
+        border-radius: 14px;
+    }
+
+    .mobile-icon {
+        background-color: #F7F7F7;
+        border-radius: 14px;
+        font-size: 16px;
+        color: #7B7C87;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        padding: 7px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .amout-num {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+
+    .gradientdarkbg {
+        background: transparent !important;
+        border: 1px solid #CDCDCD !important;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .introbox h4 {
+        font-size: 15px !important;
+    }
+
+    .introbox h5 {
+        font-size: 14px !important;
+        font-weight: 500;
+        padding-bottom: 0px !important;
+    }
+
+    .border-bottom-x {
+        border-bottom: 1px solid #CDCDCD;
+        padding-bottom: 10px;
+    }
+
+    .table-t-gray {
+        color: #7B7C87;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        margin: 0 !important;
+    }
+
+    .qcgo-dash>div::before {
+        display: none;
+    }
+
+    .qcgo-dash>div {
+        margin-top: 0px !important;
+    }
+
+    .qcgo-dash {
+        display: flex !important;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .step-img {
+        width: 100%;
+        max-width: 55px !important;
+        margin-bottom: 0px !important;
+        margin-right: 10px;
+    }
+
+    .profile-img-main {
+        max-width: 50px;
+        border: 1px solid #0ABAB5;
+        padding: 2px;
+        border-radius: 500px;
+    }
+
+    .icon.active {
+        filter: brightness(0) invert(1);
+    }
+
+    .mobile-footer-main {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #CDCDCD;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom: 0 !important;
+        z-index: 1000;
+        padding: 16px;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .mobile-footer-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .nav-button {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 12px;
+        border-radius: 17px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        outline: none;
+        white-space: nowrap;
+
+    }
+
+    .nav-button-active {
+        background-color: #0ABAB5;
+        color: #ffffff;
+        border-radius: 56px;
+        padding: 12px 16px;
+    }
+
+    .nav-button-inactive {
+        background-color: #EEEEEE;
+        color: #7b7c87;
+    }
+
+    .nav-icon {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+
+    .nav-icon-active {
+        filter: brightness(0) invert(1);
+    }
+
+    .nav-label {
+        font-weight: 600;
+        font-size: 13px;
+        filter: brightness(0) invert(1);
+    }
+
+    /* .mobile-footer-main .bg-info {
+        background-color: #0ABAB5 !important;
+    }
+
+    .mobile-footer-main .bg-light {
+        background-color: #EEEEEE !important;
+    }
+
+    .mobile-footer-main {
+        background-color: #FFFFFF !important;
+        border-top: 1px solid #CDCDCD;
+    } */
+
+    .mobile-step-main {
+        display: flex;
+        align-items: center !important;
+        justify-content: space-between;
+    }
+
+    .welcomebanner .table-content>div {
+        width: fit-content !important;
+    }
+
+    .mobile-table .coinlisticon {
+        margin-right: 6px;
+        width: 42px;
+        background-color: #F9F9F9 !important;
+        padding: 8px;
+        border: 1px solid #CDCDCD;
+        border-radius: 10px;
+    }
+
+    .tt-main {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .tt-sitebtn {
+        width: fit-content !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+
+    .tt-sub-text {
+        color: #7B7C87 !important;
+    }
+
+    .tt-main-text {
+        color: #0A0A0C !important;
+        font-weight: 500;
+    }
+
+    .mobile-table .table tbody tr:hover {
+        background: transparent !important;
+    }
+
+    .basicinfo .sitetable tbody tr td {
+        padding: 5px 0 !important;
+    }
+
+    .balancedirectbox-mobile .panelcontentbox,
+    .panelcontentbox-wallet {
+        border: 1px solid #CDCDCD;
+        border-radius: 10px;
+    }
+
+    .balancedirectbox-mobile {
+        flex-direction: column;
+    }
+
+    .balancedirectbox-mobile .panelcontentbox {
+        padding: 12px !important;
+    }
+
+    .panelcontentbox.panelcontentbox-wallet .subhead {
+        font-size: 18px !important;
+    }
+
+    .market-box .flex-market p {
+        font-size: 12px !important;
+        line-height: 22px !important;
+        margin-bottom: 0;
+    }
+
+    .market-box .tt-main {
+        font-size: 14px !important;
+    }
+
+    .market-box .sitebtn {
+        padding: 6px 18px !important;
+    }
+
+    .market-head,
+    .panelcontentbox-wallet .subhead,
+    .market-head-dash {
+        border-bottom: 1px solid #CDCDCD;
+        padding-bottom: 10px;
+    }
+
+    .market-head-dash {
+        border-bottom: 1px dashed #CDCDCD;
+
+    }
+
+    .mobile-table tbody tr td {
+        padding: 10px 20px !important;
+
+    }
+
+    .market-box {
+        border: 1px solid #CDCDCD;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .flex-market {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wallet-nav-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid #CDCDCD;
+        border-radius: 14px;
+        padding: 8px;
+    }
+
+    .border-line {
+        border: 1px solid #CDCDCD;
+        border-radius: 14px;
+        padding: 10px;
+    }
+
+    .vr-line {
+        width: 1px;
+        background-color: #f0f0f0;
+    }
+
+    .wallet-nav-img,
+    .wallet-nav-img img {
+        width: 100%;
+        max-width: 50px;
+    }
+
+    .wallet-nav-btn .wallet-nav-img,
+    .market-head-dash .faEllipsisV {
+        width: 45px;
+        height: 45px;
+        background-color: #EEEEEE;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .wallet-arrow-img {
+        width: 100%;
+        max-width: 16px;
+    }
+
+    .wallet-head {
+        color: #000000 !important;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .wallet-overwive .wallet-over-main,
+    .wallet-funding .wallet-over-main,
+    .wallet-spot .wallet-over-main {
+        border: 1px solid #0ABAB5;
+        background-color: #F0FFFF;
+    }
+
+    .mobile-icon-bg {
+        background-color: #EEEEEE;
+        height: 42px;
+        width: 42px;
+        padding: 10px 12px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .wallet-ph-div>div {
+        cursor: pointer;
+    }
+
+    .wallet-overwive .wallet-over-main .wallet-nav-img,
+    .wallet-funding .wallet-over-main .wallet-nav-img,
+    .wallet-spot .wallet-over-main .wallet-nav-img {
+        background-color: #0ABAB5;
+    }
+
+    .wallet-tbl .tabrightbox {
+        position: absolute !important;
+        top: 0px !important;
+        right: 0px !important;
+    }
+
+    .profilebox .profilepic {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .profilimg .closeicon {
+        left: 0 !important;
+    }
+
+    .profilebox>div:first-child {
+        width: 100% !important;
+    }
+
+    .prediticon {
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+        left: 50px;
+        top: 50px;
+    }
+
+    .profiledatainfo {
+        border-bottom: 1px dashed #CCCCCC !important;
+        padding-bottom: 20px;
+    }
+
+    .basicinfo {
+        background: transparent !important;
+        padding: 0px !important;
+        border-radius: 0px !important;
+        min-height: auto !important;
+    }
+
+    .pro-box {
+        background-color: #F7F7F7;
+        border: 1px solid #CDCDCD;
+        border-radius: 10px;
+    }
+
+    .pro-box .subhead {
+        border-bottom: 1px solid #CDCDCD;
+
+    }
+
+    .fundboxb .lightgraybg {
+        background: #F7F7F7;
+        border-radius: 10px;
+    }
+
+    .fundboxb img {
+        width: 32px !important;
+        height: 36px !important;
+    }
+
+    .mobile-alert-sec {
+        background-color: #F2FFFF !important;
+        border: 1px solid #0ABAB5 !important;
+        border-radius: 14px !important;
+        font-size: 14px;
+    }
+
+    .mobile-alert-sec-red {
+        background-color: transparent !important;
+        border: 1px solid #FF5656 !important;
+        background: transparent !important;
+        border-radius: 14px !important;
+        font-size: 14px;
+    }
+
+    .securityinnerbox .profiletablebox {
+        display: flex !important;
+    }
+
+    .mobile-alert-sec b {
+        color: #0ABAB5;
+    }
+
+    .security-com-boxs.profiletablebox.contentbox {
+        padding: 14px 10px;
+        border: 1px solid #d2d3db;
+        border-radius: 12px;
+        justify-content: space-between;
+    }
+
+    .security-com-boxs h5 {
+        color: #7b7c87;
+    }
+
+    .security-btn {
+        background: #cdcdcd;
+        color: #000;
+        padding: 8px;
+        font-size: 14px;
+        border-radius: 10px;
+        border: 0;
+    }
+
+    .security-btn:hover {
+        background: #0abab5;
+        color: #fff;
+    }
+
+    .security-red-btn {
+        background: #ff5656;
+        color: #fff;
+        padding: 8px;
+        font-size: 14px !important;
+        border-radius: 10px;
+        border: 0;
+    }
+
+    .security-red-btn:hover {
+        background: #fd6363d4;
+    }
+
+    .security-canel-btn {
+        background: #eeeeee !important;
+        color: #000 !important;
+        padding: 10px 25px !important;
+        font-size: 16px !important;
+        line-height: normal !important;
+        border-radius: 32px !important;
+        font-weight: 500 !important;
+        border: 0 !important;
+    }
+
+    :not(.btn-check)+.btn:active.security-canel-btn {
+        background-color: transparent !important;
+        color: #000;
+    }
+
+    /* .security-canel-btn:hover {
+        background: #0ABAB5 !important;
+        color: #fff !important;
+    }
+
+    .security-canel-btn:focus {
+        background: #0ABAB5 !important;
+        color: #fff !important;
+    } */
+
+    .verify-iden .sitebtn {
+        font-size: 16px !important;
+        font-family: "Inter", sans-serif !important;
+    }
+
+    .table-content.lightgraybg {
+        background: #f7f7f7;
+    }
+
+    .fundboxb .lightgraybg>div:last-child {
+        width: auto !important;
+    }
+
+    .g-auth-arrow {
+        width: 20px;
+        height: 20px;
+        background-color: #7b7c87;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .otp-input-group {
+        display: flex;
+        gap: 8px;
+        justify-content: space-between;
+        margin-top: 12px;
+        padding-inline: 2px;
+    }
+
+    .otp-input-field {
+        width: 52px;
+        height: 52px;
+        background-color: #f7f7f7;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: none;
+        font-size: 24px;
+        text-align: center;
+        color: #333;
+        outline: none;
+        transition: border-color 0.2s;
+    }
+
+    /* Optional: Focus state styling */
+    .otp-input-field:focus {
+        border-color: #007aff;
+        box-shadow: 0 0 0 1px #007aff;
+    }
+
+    .modalbgt.authmodal .siteformbg a,
+    .authbg p a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .securitycontentbox.authbg .form-group {
+        margin-bottom: 10px;
+    }
+
+    .authbg p {
+        color: #7b7c87;
+    }
+
+    .siteformbg .g-auth-box {
+        max-width: 240px;
+        width: 100%;
+        background: #eeeeee;
+        padding: 10px;
+        border: 1px solid #d2d3db;
+        border-radius: 10px;
+        margin-block: 12px;
+    }
+
+    .authbg h3 {
+        font-size: 18px;
+    }
+
+    .auth-otp-input .form-control,
+    .walletaddres-input .form-control {
+        border-right: 0;
+    }
+
+    .panelcontentbox.authbg-panel {
+        padding: 0px;
+    }
+
+    .verify-iden.siteformbg .form-select,
+    .deposit-form.siteformbg .form-select {
+        font-size: 14px;
+        height: 44px;
+        background-color: #F7F7F7 !important;
+        border-color: #c7c7c7;
+        border-radius: 10px;
+        /* background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>") no-repeat right 10px center !important */
+    }
+
+    .dep-btn {
+        width: 100%;
+        border-radius: 32px;
+        font-size: 14px;
+        border: 1px solid #0ABAB5 !important;
+        color: #0ABAB5 !important;
+        background-color: transparent !important;
+    }
+
+    .dep-btn:focus {
+        color: #fff !important;
+    }
+
+    .advance-kyc-btn {
+        background-color: #000;
+        color: #fff;
+        padding: 10px 18px;
+        border-radius: 32px;
+        width: 100%;
+        font-size: 14px !important;
+        border: 1px solid #000 !important;
+    }
+
+    .advance-kyc-btn:hover,
+    .advance-kyc-btn:active {
+        border: 1px solid #000;
+        background-color: transparent !important;
+        color: #000 !important;
+    }
+
+    .advance-kyc-btn:hover img {
+        filter: invert(1);
+    }
+
+    .deposit-wallet-flex {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .deposit-wallet-flex>div:first-child,
+    .deposit-wallet-flex>div:last-child {
+        width: 50%;
+    }
+
+    .deposit-wallet-qr {
+        max-width: 160px;
+        width: 100%;
+    }
+
+    .depwall-cp {
+        background-color: #eeeeee;
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    .depwall-cp-icon,
+    .depwall-down-icon {
+        max-width: 30px;
+        width: 100%;
+    }
+
+    .depo-down {
+        background-color: #0abab5;
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    .whistory-form .siteformbg .form-control,
+    .whistory-form .siteformbg .form-select {
+        height: 44px;
+        border-radius: 10px;
+        font-size: 14px;
+        background-color: #F7F7F7;
+    }
+
+    .whistory-form .siteformbg .dateinput::before {
+        top: 13px;
+    }
+
+    .depo-hist-table.sitetable.table tbody tr {
+        border: 1px solid #cdcdcd;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .depo-hist-table.sitetable tbody tr td {
+        color: #0A0A0C;
+    }
+
+    .depo-hist-table.sitetable.table-responsive-stack td {
+        padding: 5px 2px !important;
+    }
+
+    .depo-hist-table.sitetable tbody .coinicon {
+        width: 44px;
+        margin-right: 0;
+        padding: 5px;
+        border: 1px solid #cccccc;
+        border-radius: 9px;
+        background-color: #f9f9f9;
+    }
+
+    .supp-chat-btn {
+        background-color: #e5e5e5;
+        color: #020209;
+        padding: 10px 25px !important;
+        font-size: 16px !important;
+        line-height: normal !important;
+        border-radius: 32px !important;
+        font-weight: 500 !important;
+        border: 0;
+    }
+
+    .supp-chat-btn:hover {
+        background-color: #e5e5e5;
+        color: #020209;
+    }
+
+    .supportbg.container {
+        padding-inline: 0;
+    }
+
+    .chatbox.ticketchat {
+        margin-top: 10px;
+    }
+
+    .chat li {
+        display: table;
+        width: 100%;
+    }
+
+    .chat li>div {
+        display: table-cell;
+        vertical-align: top;
+        float: none;
+    }
+
+    .chat li .chat-img {
+        width: 43px;
+    }
+
+    .chatbox .img-circle {
+        width: 40px;
+        height: 40px;
+        border: 0px;
+        border-radius: 50%;
+        margin-top: 0px;
+        background: #0db5b03d;
+        padding: 6px;
+    }
+
+    .chatbox .header {
+        margin: 0px 9px;
+        display: inline-block;
+    }
+
+    .chat li.right {
+        float: right;
+        text-align: right;
+    }
+
+    .chat .h4 {
+        margin: 0px;
+        font-size: 14px;
+        padding-bottom: 7px;
+    }
+
+    .chat .chat-body p {
+        word-break: break-word;
+        line-height: 23px;
+        font-size: 14px;
+        background: #0000001c;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        color: #001c23;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+    }
+
+    .chat .right p {
+        background: #0abab536;
+        border-top-right-radius: 0;
+        border-top-left-radius: 10px;
+    }
+
+    .chat {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .chatbox .img-circle {
+        border: 1px solid #d2d3db !important;
+        border-radius: 12px !important;
+        background: #fff !important;
+    }
+
+    .chat .chat-body p {
+        background: #F7F7F7 !important;
+    }
+
+    .chat .right p {
+        background: #EDEDF0 !important;
+        border: 1px solid #D2D3DB !important;
+    }
+
+    body .chat-box-padding {
+        padding-bottom: 0 !important;
+    }
+
+    .chat-foot-mobile {
+        width: 100%;
+    }
+
+    .chat-foot-mobile-wrapper {
+        width: 100%;
+    }
+
+    .chat-foot-mobile-input-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #f7f7f9;
+        border: 1px solid #e2e2e2;
+        border-radius: 18px;
+        padding: 10px 12px;
+    }
+
+    .chat-foot-mobile-attachment-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .chat-foot-mobile-input {
+        flex: 1;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #000;
+        font-size: 14px;
+        min-width: 0;
+    }
+
+    .chat-foot-mobile-input::placeholder {
+        color: #888;
+    }
+
+    .chat-foot-mobile-send-btn {
+        background: #14c5c5;
+        border: none;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+
+    .chat-foot-mobile-send-btn:hover {
+        opacity: 0.9;
+    }
+
+    .chatboxscroll {
+        max-height: 450px;
+        min-height: 450px;
+        overflow-y: scroll;
+        margin: 20px 0px;
+    }
+
+    .del-accout-li li {
+        font-size: 14px;
+        padding-bottom: 10px;
+        color: #7b7c87;
+    }
+
+    .notslist.checkradiobox {
+        background: #f6f6f8;
+        border: 1px solid #d2d3db;
+        border-radius: 12px;
+        padding: 10px !important;
+    }
+
+    .notslist.checkradiobox .form-check .form-check-input:checked[type=checkbox],
+    .notslist .form-check .form-check-input:checked[type=checkbox] {
+        background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") !important;
+        background-color: #007aff !important;
+    }
+
+    .form-check-input:checked[type=checkbox] {
+        background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") !important;
+        background-color: #007aff !important;
+    }
+
+    /* Side Menu */
+
+    /* Overlay */
+
+    .leftsidemenu {
+        background: #fff;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        width: 260px;
+        z-index: 99;
+        display: table;
+        padding-top: 85px !important;
+        padding: 10px;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: 999;
+    }
+
+    .leftsidemenu ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .leftsidemenu li,
+    .leftsidemenu .dropdown {
+        list-style: none;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .leftsidemenu li .logout,
+    .leftsidemenu li a,
+    .leftsidemenu .dropdown a {
+        color: #082930;
+        font-size: 14px;
+        position: relative;
+        text-decoration: none;
+        padding: 14px 16px;
+        font-weight: 600;
+        line-height: normal;
+        border-left: 3px solid #ffffff;
+        border-radius: 0px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .leftsidemenu .logout:hover,
+    .leftsidemenu a:hover,
+    .leftsidemenu a:focus {
+        background: #b0e9e759;
+        border-color: #0abab5;
+    }
+
+    .leftsidemenu li span.logout i {
+        width: 43px;
+    }
+
+    .leftsidemenu li span.logout i,
+    .leftsidemenu li a i {
+        margin-right: 11px;
+    }
+
+    .leftsidemenu li .logout img,
+    .leftsidemenu a img {
+        width: 100%;
+        max-width: 18px;
+        filter: grayscale(1) invert(1);
+    }
+
+    .leftsidemenu a .menuicon {
+        filter: none;
+    }
+
+    .logout {
+        cursor: pointer;
+    }
+
+    .leftsidemenu hr {
+        border-top: 0px solid #ffffff3a;
+        margin: 0;
+    }
+
+    .leftsidemenu a.active {
+        background: #0abab452;
+        color: #082930;
+        border-color: #0abab5;
+    }
+
+    .leftsidemenu li .logout>div,
+    .leftsidemenu li a>div {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .leftsidemenu .dropdown-menu {
+        background: #ffffff14;
+        position: relative !important;
+        transform: inherit !important;
+        margin-top: 5px !important;
+    }
+
+    .leftsidemenu .dropdown-menu a {
+        padding: 10px 20px;
+    }
+
+    .leftsidemenu .dropdown-menu img {
+        margin-right: 8px;
+    }
+
+    .leftsidemenu .dropdown-menu a:hover {
+        background-color: transparent;
+    }
+
+    .leftsidemenu .dropdown .careticondown {
+        float: right;
+        position: relative;
+        top: 10px !important;
+        right: 7px;
+        font-size: 13px;
+    }
+
+    .leftsidemenu a.active.dropdown-bs-toggle.active.show {
+        background: #b0e9e759 !important;
+    }
+
+    .leftsidemenu.active li a i {
+        display: inline-block;
+        margin: 0px;
+        width: 45px;
+        height: 45px;
+        padding: 12px;
+        margin-right: 10px;
+    }
+
+    .leftsidemenu.active li a:hover>div::after {
+        display: none;
+    }
+
+    .leftsidemenu.active li {
+        padding-bottom: 22px;
+    }
+
+    .leftsidemenu .dropdown-item:hover {
+        background-color: #b0e9e759 !important;
+        border-color: #0abab5;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .walletlink-menu-dd.dropdown-menu .titlemenu.dropdown-item {
+        padding: 8px 18px !important;
+    }
+
+    .historylink-menu-dd.dropdown-menu .titlemenu.dropdown-item {
+        padding: 8px 18px !important;
+    }
+
+    /* Side Menu */
+    .mobile-sidemenu-wrapper {
+        position: fixed;
+        top: 0;
+        right: -780px;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        z-index: 1000;
+        transition: right 0.3s ease-in-out;
+        background-color: rgb(0, 0, 0, 0.40);
+        backdrop-filter: blur(4px);
+    }
+
+    .mobile-sidemenu-wrapper.open {
+        right: 0;
+    }
+
+    .mobile-sidemenu-wrapper.open .leftsidemenu {
+        display: block !important;
+        padding-top: 0px !important;
+        overflow-y: scroll;
+    }
+
+    .mobile-sidemenu-wrapper .leftsidemenu {
+        width: 300px !important;
+    }
+
+    .leftsidemenu .titlemenu.logout {
+        margin-top: 18px;
+    }
+
+    .leftsidemenu .titlemenu.logout i {
+        background-color: #F23643;
+    }
+
+    .leftsidemenu .titlemenu.logout i img {
+        filter: grayscale(0) invert(0) !important;
+    }
+
+    .mobile-left-close {
+        color: #fff;
+        background-color: #F23643;
+        border: 0;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .leftmenuprofilebg {
+        padding: 10px 15px;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .leftmenuprofilebg h5 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .leftmenuprofilebg p {
+        font-size: 13px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .leftsidemenu {
+        display: block;
+        width: 400px;
+        right: 0;
+        padding: 0 !important;
+        left: inherit !important;
+        background: #fff;
+        z-index: 1000;
+    }
+
+    .leftsidemenu li a {
+        border-left: 0 !important;
+        padding: 5px 15px !important;
+    }
+
+    .leftsidemenu li a i {
+        width: 42px;
+        height: 42px;
+        background: #eeeeee;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .leftsidemenu .dropdown-menu {
+        margin: 7px 10px !important;
+    }
+
+    .expand-input {
+        margin-right: 0 !important;
+    }
+
+    .aboutus-cont.panelcontentbox,
+    .privacypage.panelcontentbox,
+    .terms-cont.panelcontentbox {
+        background: #EEEEEE;
+        border-radius: 12px !important;
+        padding: 15px;
+    }
+
+    .contactusform.panelcontentbox {
+        padding: 25px 0px;
+    }
+
+    .contactusform.panelcontentbox .siteformbg .form-select {
+        background-color: #F7F7F7;
+        height: 44px;
+    }
+
+    .mo-view.wallet-search-main .input-group-text,
+    .mo-view.wallet-search-main .spot-wall-expand-input .form-control {
+        margin-top: 0 !important;
+    }
+
+    .wallet-search-move .form-control {
+        padding-left: 0 !important;
+    }
+
+    /* Home Page CSS */
+
+    .homebannerbg .heading-title {
+        text-align: left;
+    }
+
+    .homebannerbg .heading-title br {
+        display: block;
+    }
+
+    .home-mobile .heading-title span {
+        color: #0abab5;
+    }
+
+    .home-mob-btn {
+        background-color: #0abab5 !important;
+        color: #fff;
+        border-radius: 32px;
+        padding: 10px 22px !important;
+    }
+
+    .homebannerbg .more-pr {
+        color: #111111;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .markettable-mob-bg .heading-title {
+        text-align: left;
+    }
+
+    .marketstab-mbtabs-bg {
+        background-color: #F7F7F7;
+        padding: 10px;
+        border: 1px solid #CDCDCD;
+        border-radius: 18px;
+        height: 100%;
+    }
+
+    .marketsmmtab .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background: #0ABAB5 !important;
+        color: #fff;
+        padding: 5px 14px !important;
+        border-radius: 32px;
+    }
+
+    .marketsmmtab .nav-pills .nav-link {
+        color: #001c23;
+        padding: 5px 14px !important;
+        border-radius: 32px;
+    }
+
+    .table-responsive-stack td {
+        padding: 5px 4px !important;
+    }
+
+    .trading-steps-mob .heading-title {
+        text-align: start;
+    }
+
+    .howitbg-grid-cards {
+        margin-top: 10px !important;
+        padding-inline: 6px !important;
+    }
+
+    .howitbg-grid-span {
+        background-color: #99A0A2 !important;
+        transition: all ease .3s;
+    }
+
+    .howitbg-grid-card1:hover .howitbg-grid-span,
+    .howitbg-grid-card2:hover .howitbg-grid-span,
+    .howitbg-grid-card3:hover .howitbg-grid-span,
+    .howitbg-grid-card4:hover .howitbg-grid-span {
+        background-color: #0ABAB5 !important;
+    }
+
+    .howitbg-grid-card1,
+    .howitbg-grid-card2,
+    .howitbg-grid-card3,
+    .howitbg-grid-card4 {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        column-gap: 16px;
+        border: 1px solid #CDCDCD;
+        border-radius: 12px;
+        padding: 14px;
+    }
+
+    .howitbg-grid-cards-align {
+        margin-bottom: 0 !important;
+    }
+
+    .mbhome-footerbg {
+        background-color: #001c23;
+        padding: 22px 10px;
+    }
+
+    .mbhome-footerbg .accordion-button {
+        background-color: #001c23;
+    }
+
+    .mbhome-footerbg .accordion-flush>.accordion-item {
+        border: 0 !important;
+        background-color: #001c23;
+    }
+
+    .mbhome-footerbg .accordion-item .accordion-header .accordion-button {
+        color: #fff;
+        box-shadow: none !important;
+    }
+
+    .mbhome-footerbg .accordion-body {
+        background-color: #001216;
+        color: #98BCC5;
+        margin-inline: 14px;
+        border-radius: 6px;
+    }
+
+    .mbhome-footerbg .accordion-body a {
+        color: #98BCC5;
+        text-decoration: none;
+    }
+
+    .mbhome-footerbg .sub-head {
+        color: #fff;
+        font-size: 18px;
+        padding-inline: 18px;
+        margin-top: 18px;
+    }
+
+    .mob-social-icons {
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+        padding-inline: 18px;
+        margin-top: 16px;
+    }
+
+    .foot-logos-icon {
+        max-width: 26px !important;
+    }
+
+    .mbhome-footerbg span {
+        display: block;
+        color: #fff !important;
+        text-align: center;
+        font-size: 13px;
+        padding-inline: 4px;
+        margin-top: 46px;
+    }
+
+    .home-banner-cards {
+        padding: 28px 16px !important;
+        min-height: 170px;
+        max-height: 170px;
+    }
+
+    .home-banner-swiper {
+        height: 100%;
+    }
+
+    .home-banner-swiper .swiper-slide {
+        width: 85%;
+        max-width: 380px;
+        height: 100%;
+    }
+
+    .swiper-pagination-custom,
+    .swiper-pagination-custom2,
+    .swiper-pagination-custom3 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .swiper-pagination-custom .swiper-pagination-bullet,
+    .swiper-pagination-custom2 .swiper-pagination-bullet,
+    .swiper-pagination-custom3 .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        background: #B5B5B5;
+        opacity: 1;
+        margin: 0 4px;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+
+    .swiper-pagination-custom .swiper-pagination-bullet-active,
+    .swiper-pagination-custom2 .swiper-pagination-bullet-active,
+    .swiper-pagination-custom3 .swiper-pagination-bullet-active {
+        width: 24px;
+        background: #00bcd4;
+    }
+
+    .swiper-slide.swiper-slide-next {
+        opacity: 0.6;
+    }
+
+    .features-mob-cont .heading-title {
+        text-align: left;
+    }
+
+    .features-mob-card {
+        padding: 14px;
+        border: 1px solid #dbdbdb;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 6px;
+        max-height: 150px;
+        min-height: 150px;
+    }
+
+    .features-mob-card .sub-head {
+        color: #001C23;
+        font-weight: 600;
+    }
+
+    .depo-hist-table .sitebtn {
+        background-color: #e5e5e5 !important;
+        color: #020209 !important;
+        text-decoration: none !important;
+        text-align: center;
+    }
+
+    .search-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .search-box {
+        background: white;
+        border-radius: 10px;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 12px 16px;
+        padding-left: 40px;
+        font-size: 16px;
+        border: 1px solid #cdcdcd;
+        border-radius: 12px;
+        outline: none;
+        background: #f7f7f7 !important;
+    }
+
+    .search-suggestions {
+        margin-top: 6px;
+        padding-bottom: 8px;
+        background-color: #F7F7F7;
+        padding: 4px;
+        border-radius: 8px;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .suggestion-item {
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        font-size: 14px;
+        color: #3c4043;
+        cursor: pointer;
+        transition: background-color 0.15s ease;
+    }
+
+    .suggestion-item:hover {
+        background-color: #f1f3f4;
+    }
+
+    .with-amt-select {
+        background-color: #EEEEEE;
+        padding: 8px 16px;
+        color: #000;
+        border-radius: 22px;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .with-amt-select:hover {
+        background-color: #0abab5;
+        color: #fff;
+    }
+
+    .tradelive-pricelist {
+        border: 1px solid #cdcdcd;
+        border-radius: 14px;
+        padding: 12px;
+    }
+
+    .tradelive-pricelist>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tradelive-pricelist img {
+        height: 30px;
+    }
+
+    .liveprice-chart-tab>div:first-child {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .live-pricetable.sitetable tbody tr td {
+        padding: 4px 11px !important;
+        line-height: 18px !important;
+    }
+
+    .liveprice-td span:first-child {
+        color: #7B7C87;
+        font-weight: 500;
+    }
+
+    .liveprice-td span:last-child {
+        color: #141414;
+        font-weight: 500;
+    }
+
+    .t-green {
+        color: #18C790 !important;
+    }
+
+    .market-list-tablemb.sitetable .activerow {
+        border-bottom: 1px solid #cdcdcd;
+        padding-block: 10px;
+    }
+
+    .market-list-tablemb.sitetable .activerow:last-child {
+        border-bottom: 0 !important;
+    }
+
+    .referral-mob-card {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #f7f7f7;
+        border-radius: 22px;
+        padding: 14px;
+    }
+
+    .referral-mob-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #d2d3db;
+        border-radius: 14px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .referral-mob-icon img {
+        width: 100%;
+        max-width: 30px;
+    }
+
+    .referral-mob-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .referral-mob-text span:first-child {
+        color: #7B7C87;
+        font-weight: 400;
+    }
+
+    .referral-mob-text span:last-child {
+        font-size: 16px;
+        color: #141414;
+        font-weight: 600;
+    }
+
+    .affiliatebg h6 {
+        font-size: 17px;
+        font-weight: 600;
+        color: #141414;
+        margin-bottom: 16px !important;
+    }
+
+    .custom-trade-chart .trade-chart-icon {
+        width: 22px;
+    }
+
+    .custom-trade-chart .tabbanner.nav.nav-pills .nav-link {
+        border-radius: 12px !important;
+        background-color: #EEEEEE;
+        border-bottom: 0 !important;
+    }
+
+    .custom-trade-chart .tabbanner.nav.nav-pills .nav-link.active {
+        background-color: #0ABAB5 !important;
+    }
+
+    .custom-trade-chart .tabbanner.nav.nav-pills .nav-link.active img {
+        filter: brightness(0) invert(1);
+    }
+
+    .custom-trade-chart .tabbanner.nav.nav-pills .nav-link {
+        padding: 7px 10px;
+    }
+
+    .liveprice-chart-tab {
+        border: 1px solid #cdcdcd;
+        border-radius: 14px;
+        overflow: hidden;
+    }
+
+    .liveprice-chart-tab .custom-trade-chart {
+        padding: 10px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .orderform.griddragoption {
+        position: relative !important;
+        display: block !important;
+    }
+
+    .modalbgt .markets-modal-mb.modal-body {
+        padding: 0 !important;
+    }
+
+    .grid-box>div {
+        background: #fff !important;
+    }
+
+    .order-buy-sell-div {
+        display: flex;
+        column-gap: 6px;
+        width: 100%;
+    }
+
+    .order-buy-sell-div>div {
+        width: 50%;
+    }
+
+    .orderform.custom-order-form {
+        background: transparent !important;
+    }
+
+    .orderform.custom-order-form .nav-pills {
+        flex-wrap: nowrap;
+    }
+
+    .orderform.custom-order-form .nav-pills .nav-item:first-child .nav-link {
+        background-color: #00C48D;
+        text-align: center;
+        color: #fff !important;
+        border-radius: 12px !important;
+        opacity: 0.7 !important;
+        font-size: 12px !important;
+        padding: 6px 12px !important;
+    }
+
+    .orderform.custom-order-form .nav-pills .nav-item:first-child .nav-link.active {
+        background-color: #00C48D;
+        text-align: center;
+        color: #fff !important;
+        border-radius: 12px !important;
+        opacity: 1 !important;
+    }
+
+    .orderform.custom-order-form .nav-pills .nav-item:last-child .nav-link {
+        background-color: #FF5656;
+        text-align: center;
+        color: #fff !important;
+        border-radius: 12px !important;
+        opacity: 0.7 !important;
+        font-size: 12px !important;
+        padding: 6px 12px !important;
+    }
+
+    .orderform.custom-order-form .nav-pills .nav-item:last-child .nav-link.active {
+        background-color: #FF5656;
+        text-align: center;
+        color: #fff !important;
+        border-radius: 12px !important;
+        opacity: 1 !important;
+    }
+
+    .buySellOrderTab .form-select,
+    .buySellOrderTab .form-control {
+        font-size: 11px;
+    }
+
+    .buySellOrderTab .form-select::placeholder,
+    .buySellOrderTab .form-control::placeholder,
+    .buySellOrderTab .input-group-text {
+        font-size: 11px;
+    }
+
+    .buySellOrderTab .form-control {
+        border-right: 0 !important;
+    }
+
+    .buySellOrderTab .form-control:focus {
+        border-color: #dee2e6 !important;
+        box-shadow: none !important;
+    }
+
+    .buySellOrderTab span {
+        font-size: 11px;
+    }
+
+    .buySellOrderTab span:first-child,
+    .buySellOrderTab span:last-child {
+        color: #0A0A0C;
+    }
+
+    .buySellOrderTab span:last-child {
+        font-weight: 600;
+    }
+
+    .buySellOrderTab .buy-btn {
+        background-color: #00C48D;
+        color: #fff !important;
+        border-radius: 12px !important;
+        font-size: 12px !important;
+    }
+
+    .buySellOrderTab .sell-btn {
+        background-color: #FF5656;
+        color: #fff !important;
+        border-radius: 12px !important;
+    }
+
+    .wall-assets-mb h6 {
+        padding-inline: 6px;
+        font-size: 12px !important;
+    }
+
+    .wall-assets-mb .wall-assets-mb-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wall-assets-mb .wall-assets-mb-flex span {
+        font-size: 11px;
+    }
+
+    .wall-assets-mb .border-green,
+    .wall-assets-mb .border-red {
+        font-size: 11px !important;
+        padding: 4px !important;
+        border-radius: 12px !important;
+    }
+
+    .buySellOrderTab .slider .bs-tooltip-top .tooltip-inner {
+        padding: 2px !important;
+        font-size: 10px !important;
+    }
+
+    .orderbook-mb .nav-item img {
+        width: 100%;
+        max-width: 14px;
+        height: auto;
+        border-radius: 3px;
+        opacity: 0.5;
+    }
+
+    .orderbook-mb .orderbookscroll .sitetable thead tr th,
+    .orderbook-mb .orderbookscroll .sitetable tbody tr td,
+    .market-list-tablemb.sitetable tr td {
+        font-size: 11px !important;
+        padding: 4px 0 !important;
+    }
+
+    .market-list-tablemb.sitetable tr td {
+        padding: 4px 10px !important;
+    }
+
+    .orderbook-mb .orderbookscroll .buyboxorder .sitescroll,
+    .orderbook-mb .orderbookscroll .sellboxorder .sitescroll {
+        height: 180px !important;
+    }
+
+    .openhistory-mb .innerpagetab .tabbanner .nav-item .nav-link {
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+
+    .openhistory-mb .depo-hist-table.sitetable.table tbody tr {
+        padding: 10px 6px;
+    }
+
+    .openhistory-mb .depo-hist-table.sitetable tbody tr td {
+        font-size: 12px !important;
+        padding: 3px 2px !important;
+    }
+
+    /* Convert Page */
+
+    .convertpage-mb .form-control {
+        height: fit-content !important;
+        padding-block: 6px !important;
+        border: 0 !important;
+        color: #000 !important;
+        font-size: 14px !important;
+    }
+
+    .convertpage-mb .form-select {
+        border: 0 !important;
+        font-size: 14px;
+    }
+
+    .convertpage-mb-input {
+        border: 1px solid #cdcdcd;
+        border-radius: 8px;
+        background-color: #f7f7f7;
+        height: 44px;
+    }
+
+    .convertpage-mb-input>div:first-child {
+        flex: 1;
+    }
+
+    .convertpage-mb .form-control::placeholder {
+        font-size: 14px !important;
+    }
+
+    .convertpage label {
+        font-size: 14px !important;
+    }
+
+    .convert-countdown-bg {
+        background-color: #F7F7F7;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .convert-countdown-bg p {
+        font-size: 12px;
+        color: #9A9EB5 !important;
+    }
+
+    .convert-modal-mb .convert-countdown-bg>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2px;
+    }
+
+    .convert-modal-mb .convert-countdown-bg>div span:first-child {
+        color: #7B7C87;
+        font-size: 12px;
+    }
+
+    .convert-modal-mb .convert-countdown-bg>div span:last-child {
+        color: #0A0A0C;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    /* Profile Page */
+
+    .pro-box .subhead {
+        font-size: 15px !important;
+        padding-bottom: 6px !important;
+    }
+
+    .profiledatainfo .h5 {
+        font-size: 16px !important;
+    }
+
+    .profiledatainfo h4 {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .flexbox.pf-box .panelcontentbox {
+        padding: 10px;
+    }
+
+    .basicinfo h4 {
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+
+    .basicinfo .sitetable tbody tr td {
+        font-size: 12px !important;
+    }
+
+    .dashboardpage .panelcontentbox .dashstepsbox,
+    .dashboardpage .panelcontentbox .mobile-step-main {
+        padding: 10px !important;
+    }
+
+    .dashboardpage .panelcontentbox .dashstepsbox .qcgo-dash h5,
+    .dashboardpage .panelcontentbox .mobile-step-main {
+        font-size: 15px !important;
+    }
+
+    .dashboardpage .panelcontentbox .dashstepsbox .sitebtn,
+    .dashboardpage .panelcontentbox .mobile-step-main .sitebtn {
+        padding: 7px 15px !important;
+    }
+
+    .dashboardpage .panelcontentbox .welcomebanner p {
+        font-size: 13px !important;
+    }
+
+    .dashboardpage .panelcontentbox .qcgo-dash h5 {
+        font-size: 15px !important;
+    }
+
+    .supportsearch .form-control {
+        margin-top: 0 !important;
+    }
+
+    .dashboardpage .panelcontentbox .dashstepsbox .qcgo-dash h5,
+    .dashboardpage .panelcontentbox .mobile-step-main br {
+        display: none;
+    }
+
+    .mobilebg .contentbox.tab-content .login-act.tab-pane .panelcontentbox,
+    .mobilebg .contentbox.tab-content .sec-act.tab-pane .panelcontentbox {
+        padding: 6px !important;
+    }
+
+    .mobilebg .walletpagebg.depositbg .mt-0.panelcontentbox {
+        padding: 6px !important;
+    }
+
+    .mobilebg .walletpagebg.depositbg .t-red.fw-bold {
+        font-size: 12px;
+    }
+
+    .mobilebg .walletpagebg.depositbg .mobile-alert-sec-red {
+        font-size: 12px;
+    }
+
+    .mobilebg .walletpagebg.depositbg .t-gray.fw-semibold {
+        font-size: 13px;
+    }
+
+    .mobilebg.wallet-funding .d-flex.justify-content-between.align-items-start.mb-3.border-line h3 {
+        font-size: 20px !important;
+    }
+
+    .tickedid-cont {
+        padding: 8px 6px;
+        border: 1.5px solid #0ABAB5;
+        border-radius: 10px;
+        background-color: #f2ffff;
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .tickedid-cont>div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tickedid-cont span:first-child {
+        color: #0ABAB5;
+        margin-bottom: 0 !important;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .tickedid-cont span:last-child {
+        color: #141414;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .rightsideformbox .t-blue {
+        color: #0abab5 !important;
+    }
+
+    .mobile-icon a {
+        text-decoration: none;
+        color: #7b7c87;
+    }
+
+    .blue-btn1 {
+        background: #0abab5 !important;
+        transition: all 0.4s !important;
+        padding: 6px 55px;
+        border-radius: 50px;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        width: 100%;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .blue-btn2 {
+        background: transparent !important;
+        border: 1px solid #0abab5 !important;
+        transition: all 0.4s !important;
+        padding: 6px 55px;
+        border-radius: 50px;
+        color: #0abab5;
+        border: none;
+        font-size: 14px;
+        width: 100%;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .blue-btn2:focus {
+        background: #0abab5 !important;
+        color: #fff;
+    }
+
+    .supportsearch.input-group {
+        flex-wrap: nowrap !important;
+    }
+
+    .mo-view:hover .expand-input,
+    .expand-input:focus-within {
+        width: 90%;
+    }
+
+    .mo-view:hover .expand-input,
+    .spot-wall-expand-input.expand-input:focus-within {
+        width: 90% !important;
+    }
+
+    /* Affiliate Page */
+
+    .affiliate-hero-section {
+        padding-top: 20px;
+    }
+
+    .affiliate-hero-section .heading-title {
+        text-align: left;
+        line-height: 34px;
+    }
+
+    .affiliate-hero-section .aff-btn {
+        border-radius: 10px;
+    }
+
+    .why-affiliate-section {
+        padding-block: 30px;
+    }
+
+    .why-affiliate-section .heading-title {
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .why-aff-box-align {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        column-gap: 10px;
+        border: 1px solid #CDCDCD;
+        border-radius: 12px;
+        padding: 14px;
+    }
+
+    .why-aff-box-align img {
+        width: 100%;
+        max-width: 42px;
+    }
+
+    .why-aff-box-align h4 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .why-aff-box-align p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .value-beyond-section {
+        background-color: #E2FDFF;
+        padding-block: 20px;
+        padding-inline: 22px;
+    }
+
+    .value-beyond-section .heading-title {
+        text-align: left;
+    }
+
+    .value-beyond-box {
+        padding: 12px;
+    }
+
+    .beyond-icon img {
+        max-width: 22px;
+    }
+
+    .beyond-icon {
+        max-width: 46px;
+        height: 46px;
+    }
+
+    .value-beyond-box p {
+        font-size: 14px;
+    }
+
+    .value-beyond-swiper {
+        height: 100%;
+    }
+
+    .value-beyond-swiper .swiper-wrapper {
+        align-items: stretch;
+    }
+
+    .value-beyond-swiper .swiper-slide {
+        width: 85%;
+        max-width: 380px;
+        height: auto;
+    }
+
+    .ready-to-earn {
+        padding-block: 30px 20px;
+    }
+
+    .earn-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .earn-box img {
+        max-width: 38px;
+    }
+
+    .earn-box .content {
+        font-size: 14px;
+        color: #4B4B4B;
+    }
+
+    .app-form.modal .modal-header .h4 {
+        font-size: 16px;
+    }
+
+    .app-form.modal .t-gray {
+        color: #7B7C87;
+    }
+
+    .saving-bal-cards .saving-flexbox {
+        flex-direction: column;
+    }
+
+    .saving-bal-cards .saving-flexbox>div {
+        border: 1px solid #f3f4f7;
+    }
+
+    .saving-bal-cards .saving-flexbox>div:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .saving-eye {
+        background-color: #cdcdcd;
+        border-radius: 14px;
+        font-size: 16px;
+        color: #7B7C87;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        padding: 7px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .saving-flexbox>div:hover {
+        border: 1px solid #0ABAB5;
+        background-color: #f2ffff;
+    }
+
+    .saving-flexbox>div:hover .saving-eye {
+        color: #138c8c;
+        background-color: #bceeee;
+    }
+
+    .saving-over-table.sitetable.table tbody tr {
+        border: 1px solid #cdcdcd;
+        padding: 10px 12px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .saving-over-table.sitetable tbody tr td {
+        color: #0A0A0C;
+    }
+
+    .saving-over-table.sitetable.table-responsive-stack td {
+        padding: 5px 2px !important;
+    }
+
+    .saving-over-table.sitetable tbody .coinicon {
+        width: 44px;
+        margin-right: 0;
+        padding: 5px;
+        border: 1px solid #cccccc;
+        border-radius: 9px;
+        background-color: #f9f9f9;
+    }
+
+    .saving-over-table.sitetable.table-responsive-stack td hr {
+        border-color: #CDCDCD;
+    }
+
+    .saving-sub-td {
+        background-color: #F7F7F7 !important;
+        padding: 14px !important;
+        border-radius: 12px;
+    }
+
+    .saving-over-table .sitebtn {
+        font-size: 15px !important;
+        padding-block: 10px !important;
+    }
+
+    /* .subscribe-flex .react-multi-carousel-track {
+        column-gap: 14px;
+    } */
+
+    .saving-over-table .t-gray {
+        color: #7B7C87;
+    }
+
+    .saving-summary {
+        background-color: #F7F7F7;
+        border: 0 !important;
+    }
+
+    .saving-summary .sitetable.table tbody tr td {
+        font-size: 14px;
+    }
+
+    .saving-summary .sitetable.table tbody tr td:first-child {
+        color: #7B7C87 !important;
+    }
+
+    .saving-summary .sitetable.table tbody tr td:last-child {
+        color: #0A0A0C !important;
+    }
+
+    .subscribemodalbox .react-multi-carousel-track {
+        margin-bottom: 12px;
+        column-gap: 6px;
+    }
+
+    .subscribemodalbox .react-multi-carousel-dot button {
+        border: 0;
+        background: #B5B5B5;
+    }
+
+    .subscribemodalbox .react-multi-carousel-dot--active button {
+        background: #0ABAB5;
+        width: 60px;
+        border-radius: 8px;
+        border: 0 !important;
+    }
+
+    .subscribemodalbox .sitebtn {
+        border-radius: 22px !important;
+    }
+
+    .saving-over-table.sitetable .svg-inline--fa.fa-angle-down {
+        cursor: pointer;
+    }
+
+    /* Live Code Change CSS */
+
+    .anticode-val-align {
+        list-style: none;
+    }
+
+    .chatticketlist {
+        min-height: 570px !important;
+    }
+
+    .table-white-tt.table-right-tt {
+        text-align: right;
+    }
+
+    .depo-hist-table .sitebtn.site-blue-btn {
+        background-color: #0abab5 !important;
+        color: #fff !important;
+    }
+
+    .break-address {
+        max-width: 174px;
+        word-break: break-all;
+        overflow-wrap: anywhere;
+        white-space: normal;
+        text-align: right;
+    }
+
+    input[readonly] {
+        background-color: #e9e9e9 !important;
+    }
+
+    .buyboxorder thead,
+    .sellboxorder thead {
+        display: none;
+    }
+
+    .orderbook-mb .suborderbook.buyshow .orderbookscroll .buyboxorder .sitescroll,
+    .orderbook-mb .suborderbook.sellshow .orderbookscroll .sellboxorder .sitescroll {
+        height: 360px !important;
+    }
+
+    .subscribemodalbox .saving-checkbox-wrapper .alink {
+        color: #0abab5 !important;
+    }
+
+    .subscribemodalbox .saving-checkbox-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subscribemodalbox .row>div:last-child {
+        padding: 10px 5px !important;
+    }
+
+    .saving-summary {
+        padding: 8px !important;
+    }
+
+    .saving-summary .sitetable.table tbody tr td {
+        font-size: 13px !important;
+    }
+
+    .deposit-wallet-flex>div:first-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nightmode .with-amt-select {
+        background-color: #000000;
+        color: #fff;
+    }
+
+    .nightmode .with-amt-select:hover {
+        background-color: #0abab5;
+        color: #fff;
+    }
+
+    .sitetable.kyc-sitetable.table tbody tr td {
+        font-size: 13px !important;
+        padding: 8px;
+    }
+
+    .nightmode .chat .primary-font {
+        color: #fff;
+    }
+
+    .nightmode .chat-body.clearfix span.ps-2.t-gray {
+        color: #ffffffd1;
+    }
+
+    .nightmode .deposit-form.siteformbg .form-select option {
+        color: #fff !important;
+    }
+
+    .affiliate-mb.mx-2 {
+        margin: 0 !important;
+    }
+
+    .affiliate-hero-section {
+        padding-top: 16px;
+    }
+
+    .affiliate-hero-section .aff-btn {
+        text-decoration: none;
+    }
+
+    .earn-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .rc-slider-mark .rc-slider-mark-text {
+        color: #999 !important;
+    }
+
+    .mobilebg.wallet-funding .mobile-icon-bg {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nightmode .rightsideformbox p.btngray {
+        color: #fff;
+    }
+
+    .siteformbg .expand-input .form-control::placeholder {
+        color: #575757 !important;
+    }
+
+    .nightmode .siteformbg .expand-input .form-control::placeholder {
+        color: #ffffffcd !important;
+    }
+
+    .nightmode .subscribemodalbox .siteformbg h6 {
+        color: #fff !important;
+    }
+
+    /* Night Mode CSS */
+
+    body.nightmode {
+        background-color: #111111 !important;
+    }
+
+    .nightmode .formbg .container {
+        background: #111111 !important;
+    }
+
+    /* Night Mode Header CSS */
+
+    .nightmode .humberbutton {
+        background: #1A1A1A;
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .mobilebg .humberbutton a {
+        color: #fff !important;
+    }
+
+    .nightmode .mobilebg .humberbutton .menu-bar,
+    .nightmode .mobilebg .humberbutton .menubtn .menu-bar {
+        filter: invert(100%) brightness(200%);
+    }
+
+    .nightmode .flex-one-cls h2 {
+        color: #fff;
+    }
+
+    .nightmode .search-box {
+        border-radius: 14px;
+    }
+
+    .nightmode .search-input {
+        background: #1A1A1A !important;
+        border: 1px solid #cdcdcd2e;
+        color: #fff;
+    }
+
+    .nightmode .search-input::placeholder {
+        color: #ffffffd2 !important;
+    }
+
+    /* Night Mode Home CSS */
+
+    .nightmode .homebannerbg .heading-title {
+        color: #fff;
+    }
+
+    .nightmode .marketstab-mbtabs-bg {
+        background-color: #1A1A1A;
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .marketstab-mbtabs-bg .table-responsive-stack tbody>tr:nth-child(odd) {
+        background-color: transparent !important;
+    }
+
+    .nightmode .markettablebg table tr td .text-dark {
+        color: #fff !important;
+    }
+
+    .nightmode .marketsmmtab .nav-pills .nav-link {
+        color: #fff;
+    }
+
+    .nightmode .howitbg-grid-card1,
+    .nightmode .howitbg-grid-card2,
+    .nightmode .howitbg-grid-card3,
+    .nightmode .howitbg-grid-card4 {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .features-mob-card {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .features-mob-card .sub-head {
+        color: #fff;
+    }
+
+    /* Night Mode Bootom Menu CSS */
+
+    .nightmode .mobile-footer-main {
+        background: #1A1A1A;
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .nav-button-inactive {
+        background-color: #3a3a3a;
+        color: #fff;
+    }
+
+    .nightmode .nav-icon {
+        filter: invert(100%) brightness(200%);
+    }
+
+    /* Night Mode Leftside Menu CSS */
+
+    .nightmode .leftsidemenu {
+        background: #1A1A1A;
+    }
+
+    .nightmode .leftmenuprofilebg h5,
+    .nightmode .leftmenuprofilebg p {
+        color: #fff;
+    }
+
+    .nightmode .leftmenuprofilebg {
+        border-bottom: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .leftsidemenu li .logout,
+    .nightmode .leftsidemenu li a,
+    .nightmode .leftsidemenu .dropdown a {
+        color: #fff;
+    }
+
+    .nightmode .leftsidemenu li a i {
+        background: #3a3a3a;
+    }
+
+    .nightmode.leftsidemenu li .logout img,
+    .nightmode .leftsidemenu a img {
+        filter: none;
+    }
+
+    .nightmode .mobile-img {
+        background-color: #3a3a3a;
+    }
+
+    .nightmode .amout-num,
+    .nightmode .introbox h5 {
+        color: #fff;
+    }
+
+    .nightmode .gradientdarkbg {
+        border: 1px solid #cdcdcd2e !important;
+    }
+
+    .nightmode .border-bottom-x {
+        border-bottom: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .mobile-icon {
+        background-color: #3a3a3a;
+        color: #fff;
+    }
+
+    /* Night Mode Security Page CSS */
+
+    .nightmode .mobile-alert-sec-red,
+    .nightmode .mobile-alert-sec {
+        background-color: transparent !important;
+        color: #fff;
+    }
+
+    .nightmode .profiletablebox h4 {
+        color: #fff;
+    }
+
+    .nightmode .security-com-boxs.profiletablebox.contentbox {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .modalbgt.authmodal .siteformbg a {
+        color: #0abab5;
+    }
+
+    .nightmode .otp-input-field {
+        background: #111111;
+        border: 1px solid #e0e0e054;
+        color: #fff;
+    }
+
+    .nightmode .secttable h3 {
+        color: #fff;
+    }
+
+    .nightmode .mobile-alert-sec span.t-gray {
+        color: #fff;
+    }
+
+    .nightmode .fundboxb .table-content .text-black {
+        color: #fff !important;
+    }
+
+    /* Night Mode Profile Page CSS */
+
+    .nightmode .pro-box {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .pro-box .subhead {
+        border-bottom: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .profilepage .panelcontentbox {
+        background: transparent;
+    }
+
+    .nightmode .profiledatainfo {
+        border-bottom: 1px dashed #cdcdcd2e !important;
+    }
+
+    /* Night Mode KYC Page */
+
+    .nightmode .verify-iden.siteformbg .form-select,
+    .nightmode .deposit-form.siteformbg .form-select {
+        background-color: #111111 !important;
+        border: 1px solid #ffffff2b;
+    }
+
+    .nightmode .kycpage .panelcontentbox {
+        background: transparent;
+    }
+
+    /* Night Mode Account Activity Page CSS */
+
+    .nightmode .mobilebg .contentbox.tab-content .login-act.tab-pane .panelcontentbox,
+    .nightmode .mobilebg .contentbox.tab-content .sec-act.tab-pane .panelcontentbox {
+        background: transparent;
+    }
+
+    .nightmode .depo-hist-table.sitetable.table tbody tr {
+        border: 1px solid #ffffff2b;
+    }
+
+    /* Night Mode Delete Account Page CSS */
+
+    .nightmode .mobile-alert-sec .text-dark {
+        color: #fff !important;
+    }
+
+    .nightmode .del-accout-li li {
+        color: #c4c4c6;
+    }
+
+    .nightmode .notslist.checkradiobox {
+        background: #1A1A1A;
+        border: 1px solid #ffffff2b;
+    }
+
+    /* Night Mode Wallet Page CSS */
+
+    .nightmode .t-green {
+        color: #18C790 !important;
+    }
+
+    .nightmode .tt-main-text {
+        color: #fff !important;
+    }
+
+    .nightmode .wallet-nav-btn {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .wallet-arrow-img {
+        filter: invert(100%) brightness(200%);
+    }
+
+    .nightmode .wallet-head {
+        color: #fff !important;
+    }
+
+    .nightmode .wallet-overwive .wallet-over-main,
+    .nightmode .wallet-funding .wallet-over-main,
+    .nightmode .wallet-spot .wallet-over-main {
+        background-color: #1A1A1A;
+    }
+
+    .nightmode .mobile-icon-bg {
+        background-color: #424242;
+    }
+
+    .nightmode .balancedirectbox-mobile .panelcontentbox,
+    .nightmode .panelcontentbox-wallet {
+        border: 1px solid #ffffff2b;
+    }
+
+    .nightmode .panelcontentbox.panelcontentbox-wallet .subhead {
+        border-bottom: 1px solid #ffffff2b;
+    }
+
+    .nightmode .panelcontentbox.wllettable {
+        background: transparent;
+    }
+
+    .nightmode .wallet-search-move .heading-box {
+        color: #fff;
+    }
+
+    .nightmode .wallet-search-main {
+        background: #111111;
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .supportsearch .form-control {
+        border: 0 !important;
+    }
+
+    .nightmode .market-box {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .market-head-dash {
+        border-bottom: 1px dashed #cdcdcd2e;
+    }
+
+    .nightmode .market-head-dash .faEllipsisV {
+        background-color: #424242;
+    }
+
+    /* Night Mode Funding Wallet Page CSS */
+
+    .nightmode .border-line {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    /* Night Mode Spot Wallet Page CSS */
+
+    .nightmode .convert-mb-icon {
+        filter: invert(100%) brightness(200%);
+    }
+
+    .nightmode .coinlisticon {
+        background-color: #111111 !important;
+        border: 1px solid #cdcdcd2e !important;
+    }
+
+    /* Night Mode Referral Page CSS */
+
+    .nightmode .panelcontentbox.contentbox {
+        background: transparent;
+    }
+
+    .nightmode .referral-mob-card {
+        background-color: #1A1A1A;
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .referral-mob-icon {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .referral-mob-icon img {
+        filter: invert(100%) brightness(200%);
+    }
+
+    .nightmode .referral-mob-text span:first-child {
+        /* color: #fff; */
+    }
+
+    .nightmode .referral-mob-text span:last-child {
+        color: #fff;
+    }
+
+    /* Night Mode Convert Page CSS */
+
+    .nightmode .panelcontentbox.convertpage {
+        background: transparent;
+    }
+
+    .nightmode .convertpage-mb-input {
+        background-color: #111111;
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .convert-countdown-bg {
+        background-color: #1A1A1A;
+    }
+
+    .nightmode .convert-modal-mb span {
+        color: #fff;
+    }
+
+    .nightmode .convert-modal-mb svg {
+        stroke: #fff;
+    }
+
+    /* Night Mode Withdraw History Page */
+
+    .nightmode .historypage .panelcontentbox.priceboxflex {
+        background: transparent;
+    }
+
+    .nightmode .depo-hist-table.sitetable tbody .coinicon {
+        background-color: #1A1A1A;
+        border: 1px solid #cdcdcd2e !important;
+    }
+
+    .nightmode .panelcontentbox.authbg-panel {
+        background: none;
+    }
+
+    .nightmode .panelcontentbox.authbg-panel.mt-3 a.text-black,
+    .nightmode .panelcontentbox.authbg-panel.mt-3 .fw-semibold.text-black {
+        color: #fff !important;
+    }
+
+    /* Night Mode Savings Page CSS */
+
+    .nightmode .saving-bal-cards .saving-flexbox>div {
+        border: 1px solid #cdcdcd2e !important;
+    }
+
+    .nightmode .saving-bal-cards .saving-flexbox>div:hover {
+        border: 1px solid #0ABAB5 !important;
+    }
+
+    .nightmode .saving-over-table.sitetable.table tbody tr {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .saving-over-table.sitetable tbody .coinicon {
+        background-color: #111111;
+        border: 1px solid #cdcdcd2e !important;
+    }
+
+    .nightmode .saving-sub-td {
+        background-color: #111111 !important;
+    }
+
+    .nightmode .s-flex-modal {
+        background: transparent;
+    }
+
+    .nightmode .s-flex-modal.active {
+        background: #111111;
+        border: 1px solid #0ABAB5;
+    }
+
+    .nightmode .saving-summary h6 {
+        color: #fff;
+    }
+
+    .nightmode .saving-summary .sitetable.table tbody tr td:last-child {
+        color: #fff !important;
+    }
+
+    .nightmode .modalbgt.authmodal.subscribemodalbox .siteformbg a {
+        color: #fff;
+    }
+
+    /* Night Mode Trade Page CSS */
+
+    .nightmode .tradelive-pricelist .live-leftoggle-icon {
+        filter: invert(100%) brightness(200%);
+    }
+
+    .nightmode .tradelive-pricelist span {
+        color: #fff;
+    }
+
+    .nightmode .tradelive-pricelist,
+    .nightmode .liveprice-chart-tab .custom-trade-chart,
+    .nightmode .liveprice-chart-tab {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .buySellOrderTab .form-select,
+    .nightmode .buySellOrderTab .form-control {
+        background-color: transparent !important;
+        color: #fff;
+        border-color: #ffffff2b;
+    }
+
+    .nightmode .buySellOrderTab .form-select option {
+        color: #000;
+    }
+
+    .nightmode .buySellOrderTab .form-control::placeholder {
+        color: #ffffffa8 !important;
+    }
+
+    .nightmode .buySellOrderTab .form-control:focus {
+        border-color: #ffffff2b !important;
+    }
+
+    .nightmode .buySellOrderTab .input-group-text {
+        background-color: transparent !important;
+        color: #fff;
+        border-color: #ffffff2b;
+    }
+
+    .nightmode .liveprice-td span:first-child,
+    .nightmode .liveprice-td span:last-child {
+        color: #fff;
+    }
+
+    .nightmode .market-list-tablemb.sitetable .activerow {
+        border-bottom: 1px solid #cdcdcd2e;
+    }
+
+    /* Night Mode Chat & Support Page CSS */
+
+    .nightmode .tickedid-cont {
+        background-color: transparent;
+    }
+
+    .nightmode .supportbg .panelcontentbox {
+        background: transparent;
+    }
+
+    .nightmode .tickedid-cont span:last-child {
+        color: #fff;
+    }
+
+    .nightmode .chatbox .img-circle {
+        background: #1A1A1A !important;
+        border: 1px solid #cdcdcd2e !important;
+    }
+
+    .nightmode .chat .chat-body p {
+        background: #1A1A1A !important;
+        color: #fff !important;
+    }
+
+    .chat .right p {
+        border: 1px solid #cdcdcd2e !important;
+    }
+
+    .nightmode .chat-foot-mobile-input-container {
+        background: #1A1A1A !important;
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .chat-foot-mobile-input {
+        color: #fff;
+    }
+
+    .nightmode .chat-foot-mobile-input::placeholder {
+        color: #fff !important;
+    }
+
+    .nightmode .advance-kyc-btn {
+        background-color: #0ABAB5;
+    }
+
+    .nightmode .advance-kyc-btn:focus,
+    .nightmode .advance-kyc-btn:active,
+    .nightmode .advance-kyc-btn:hover {
+        background-color: #0ABAB5 !important;
+        border: 1px solid #0ABAB5 !important;
+        color: #fff !important;
+    }
+
+    .nightmode .supportbg .depo-hist-table .sitebtn {
+        background-color: #e5e5e573 !important;
+    }
+
+    .nightmode .supportbg .depo-hist-table .sitebtn {
+        color: #fff !important;
+    }
+
+    .nightmode .supportbg .depo-hist-table .sitebtn img {
+        filter: invert(100%) brightness(200%);
+    }
+
+    /* Night Mode Affiliate CSS */
+
+    .nightmode .why-aff-box-align {
+        border: 1px solid #cdcdcd2e;
+    }
+
+    .nightmode .affiliate-hero-section p {
+        color: #888888;
+    }
+
+    .nightmode .why-aff-box-align p {
+        color: #888888;
+    }
+
+    .nightmode .value-beyond-section {
+        background-color: transparent;
+    }
+
+    .nightmode .value-beyond-box {
+        background-color: transparent;
+        border: 2px solid #b1e2e038;
+    }
+
+    .nightmode .value-beyond-box h4 {
+        color: #fff;
+    }
+
+    .nightmode .value-beyond-box p {
+        color: #969696;
+    }
+
+    .nightmode .earn-box .sub-heading {
+        color: #fff;
+    }
+
+    .nightmode .earn-box .content {
+        color: #969696;
+    }
+
+    .app-form .siteformbg label {
+        color: #fff;
+    }
+
+    /* Night Mode Deposit CSS */
+
+    .nightmode .mobilebg .walletpagebg.depositbg .text-black {
+        color: #fff !important;
+    }
+
+    .nightmode .mobilebg .walletpagebg.depositbg .t-gray.fw-semibold {
+        color: #fff !important;
+    }
+
+    .nightmode .mobilebg .walletpagebg.depositbg .mobile-alert-sec-red.mt-4.alert.alert-warning.show .t-gray {
+        color: #fff !important;
+    }
+
+    /* Common Night Mode CSS */
+
+    .nightmode .referbox .form-control,
+    .nightmode .siteformbg .input-group-text {
+        border: 1px solid #ffffff2b !important;
+    }
+
+    .nightmode .depo-hist-table.sitetable tbody tr td {
+        color: #fff;
+    }
+
+    .nightmode .siteformbg .form-control,
+    .nightmode .siteformbg .form-select {
+        color: #fff !important;
+    }
+
+    .nightmode .siteformbg .form-control:focus,
+    .nightmode .siteformbg .form-select:focus {
+        box-shadow: none !important;
+    }
+
+    .nightmode .search-suggestions,
+    .nightmode .search-suggestions .table-responsive-stack tbody>tr:nth-child(odd) {
+        background-color: #1A1A1A !important;
+    }
+
+    .nightmode .search-suggestions .table-responsive-stack tbody>tr td:hover {
+        background: #ffffff0f !important;
+    }
+
+    .nightmode .search-suggestions span {
+        color: #fff !important;
+    }
+
+    .nightmode .search-suggestions .t-green {
+        color: #18C790 !important;
+    }
+
+    .nightmode .search-suggestions .t-red {
+        color: #DC3027 !important;
+    }
+
+    .nightmode .mo-view.wallet-search-main .input-group-text {
+        border: 0 !important;
+    }
+
+    /* Night Mode Contact Us Page */
+
+    .nightmode .panelcontentbox.contactusform {
+        background: transparent !important;
+    }
+
+    /* Theme Switch CSS */
+
+    .theme-toggle {
+        width: 64px;
+        height: 32px;
+        background: #1e1e1e;
+        border-radius: 30px;
+        position: relative;
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 8px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .theme-toggle .icon {
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .theme-toggle .toggle-thumb {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        background: #000;
+        border-radius: 50%;
+        left: 4px;
+        transition: transform 0.3s ease;
+    }
+
+    .theme-toggle.night {
+        background: #1e1e1e;
+    }
+
+    .theme-toggle.night .toggle-thumb {
+        transform: translateX(29px);
+    }
+
+    .nightmode .theme-toggle .icon.sun img,
+    .nightmode .theme-toggle .icon.moon img {
+        filter: grayscale(1) invert(1);
+    }
+}
+
+@media (max-width:600px) {
+    .kycproffbox {
+        min-height: 120px;
+    }
+
+    .wallet-nav-btn,
+    .border-line,
+    .mobile-alert-sec-red {
+        border-radius: 10px !important;
+    }
+
+    .notslist .form-check label {
+        font-size: 14px;
+    }
+
+    .siteformbg .g-auth-box {
+        max-width: 160px;
+    }
+
+    .mobile-alert-sec {
+        border-radius: 10px !important;
+    }
+
+    .welcomebanner p,
+    .welcomebanner .content {
+        font-size: 13px;
+        line-height: 20px !important;
+    }
+
+    .mobile-footer-main {
+        padding: 17px 8px;
+    }
+
+    .mobile-footer-nav {
+        gap: 8px;
+    }
+
+    .nav-button {
+        padding: 10px;
+        border-radius: 7px;
+        gap: 6px;
+    }
+
+    .nav-icon {
+        width: 19px;
+        height: 19px;
+    }
+
+    .mobile-alert-sec-red {
+        padding: 13px !important;
+    }
+
+    .security-btn,
+    .security-red-btn {
+        padding: 6px 8px !important;
+    }
+
+    .securityiconbox {
+        width: 33px !important;
+        height: 33px !important;
+    }
+}
+
+@media (max-width:450px) {
+
+    .humberbutton {
+        width: 50px;
+    }
+
+    .nav-label {
+        font-size: 12px;
+    }
+
+    .red-btn-main,
+    .green-btn-main,
+    .blue-btn1,
+    .blue-btn2 {
+        padding: 6px 20px;
+    }
+
+    .depo-hist-table.sitetable tbody tr td {
+        font-size: 12px !important;
+    }
+
+    .saving-over-table.sitetable tbody tr td {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:480px) {
+    .bottom-mob-span {
+        display: none !important;
+    }
+
+    .chat-foot-mobile-input-container {
+        padding: 8px 10px;
+        gap: 8px;
+    }
+
+    .chat-foot-mobile-send-btn {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media(max-width: 400px) {
+    .nav-label {
+        display: none;
+    }
+
+    body {
+        padding-bottom: 80px !important;
+    }
+
+    .otp-input-field {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+
+    .security-canel-btn {
+        padding: 10px 3px !important;
+        font-size: 13px !important;
+    }
+
+    .verify-iden .sitebtn {
+        padding: 10px 3px !important;
+        font-size: 14px !important;
+    }
+
+    .nav-label {
+        font-size: 11px;
+    }
+
+    .humberbutton {
+        height: 37px;
+    }
+
+    .orderform.custom-order-form .nav-pills .nav-item:first-child .nav-link,
+    .orderform.custom-order-form .nav-pills .nav-item:last-child .nav-link,
+    .buySellOrderTab .buy-btn,
+    .buySellOrderTab .sell-btn,
+    .border-green,
+    .border-red {
+        padding: 4px !important;
+        font-size: 11px !important;
+    }
+
+    .wall-assets-mb .sitetable tbody tr td {
+        padding: 3px !important;
+    }
+
+    .tradelive-pricelist,
+    .liveprice-chart-tab .custom-trade-chart {
+        padding: 6px !important;
+    }
+
+    .dashstepsbox .welcomebanner p {
+        font-size: 13px !important;
+    }
+
+    .mobilebg .walletpagebg.depositbg .t-gray.fw-semibold {
+        font-size: 12px;
+    }
+
+    .mobilebg.wallet-funding .d-flex.justify-content-between.align-items-start.mb-3.border-line h3 {
+        font-size: 16px !important;
+    }
+
+    .mobilebg.wallet-funding .mobile-icon-bg {
+        height: 38px;
+        width: 38px;
+    }
+
+    .mobilebg.recovery-page .panelcontentbox {
+        padding: 2px !important;
+    }
+
+    .mobilebg.recovery-page .form-check .form-check-input {
+        border: 1px solid #000 !important;
+    }
+
+    .mobilebg.recovery-page .form-check {
+        padding-left: 1em !important;
+    }
+
+    .mobilebg.recovery-page .form-check .form-check-input:checked[type=checkbox],
+    .mobilebg.recovery-page .form-check .form-check-input:checked[type=checkbox] {
+        background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") !important;
+        background-color: #007aff !important;
+    }
+
+    .value-beyond-section {
+        padding-inline: 8px;
+    }
+}
+
+@media(max-width: 380px) {
+    .features-mob-card .sub-head {
+        font-size: 16px;
+    }
+
+    .features-mob-card p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 360px) {
+    .wallet-ph-div {
+        flex-direction: column;
+    }
+
+    .wallet-nav-img,
+    .wallet-nav-img img {
+        max-width: 46px;
+    }
+
+    .wallet-nav-btn .wallet-nav-img {
+        height: 42px;
+        width: 42px;
+    }
+
+    .chat-foot-mobile-send-btn {
+        padding: 10px 12px;
+    }
+
+    .step-img {
+        max-width: 42px !important;
+    }
+
+    .dashboardpage .panelcontentbox .qcgo-dash h5 {
+        font-size: 14px !important;
+        margin-bottom: 4px !important;
+    }
+
+    .advance-kyc-btn {
+        font-size: 13px !important;
+    }
+
+    .security-red-btn {
+        font-size: 13px !important;
+    }
+
+}
+
+@media(max-width: 320px) {
+    .depo-hist-table.sitetable.table tbody tr {
+        padding: 10px 6px;
+    }
+
+    .saving-over-table.sitetable.table tbody tr {
+        padding: 10px 6px;
+    }
+}
