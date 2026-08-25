@@ -1,4 +1,8 @@
 @media (max-width:767px) {
+    .table-white-tt-x {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
 
     .sitebtn {
         font-family: "Inter", sans-serif !important;
@@ -145,6 +149,11 @@
         background: #F7F7F7;
         border: 1px solid #CDCDCD;
         border-radius: 10px;
+    }
+
+    .search-box-x .form-control {
+        background: #ffffff;
+
     }
 
     .wallet-search-move .input-group-text,
@@ -1205,6 +1214,18 @@
         border-color: #0abab5;
     }
 
+    .leftsidemenu a:first-child:hover,
+    .nightmode .leftsidemenu a:first-child:focus {
+        background: #fff !important;
+        border-color: #fff;
+    }
+
+    .nightmode .leftsidemenu a:first-child:hover,
+    .nightmode .leftsidemenu a:first-child:focus {
+        background: #111111 !important;
+        border-color: #111111;
+    }
+
     .leftsidemenu li span.logout i {
         width: 43px;
     }
@@ -1672,6 +1693,10 @@
         border-radius: 10px;
     }
 
+    .acc-main-box .search-box .form-control {
+        background: transparent !important;
+    }
+
     .search-icon {
         position: absolute;
         left: 16px;
@@ -1702,6 +1727,7 @@
         left: 0;
         width: 100%;
         overflow-x: auto;
+        max-height: 200px;
     }
 
     .suggestion-item {
@@ -1726,6 +1752,7 @@
         width: 100%;
         text-align: center;
         font-weight: 500;
+        cursor: pointer;
     }
 
     .with-amt-select:hover {
@@ -1872,6 +1899,11 @@
 
     .modalbgt .markets-modal-mb.modal-body {
         padding: 0 !important;
+    }
+
+    .markets-modal-mb .tab-content {
+        max-height: 350px;
+        overflow-y: auto;
     }
 
     .grid-box>div {
@@ -2965,6 +2997,12 @@
         border-bottom: 1px dashed #cdcdcd2e;
     }
 
+    .market-head,
+    .panelcontentbox-wallet .subhead,
+    .market-head-dash {
+        border-bottom: 1px solid #cdcdcd2e;
+    }
+
     .nightmode .market-head-dash .faEllipsisV {
         background-color: #424242;
     }
@@ -3351,14 +3389,14 @@
         position: absolute;
         width: 26px;
         height: 26px;
-        background: #000;
+        background: #0abab5;
         border-radius: 50%;
         left: 4px;
         transition: transform 0.3s ease;
     }
 
     .theme-toggle.night {
-        background: #1e1e1e;
+        background: #3a3a3a;
     }
 
     .theme-toggle.night .toggle-thumb {
@@ -3369,9 +3407,45 @@
     .nightmode .theme-toggle .icon.moon img {
         filter: grayscale(1) invert(1);
     }
+
+    .add-white-cls {
+        color: #0abab5 !important;
+        cursor: pointer;
+    }
+
+    .add-wht-btn {
+        padding: 6px 10px !important;
+        font-family: 10px !important;
+        margin-bottom: 7px;
+    }
+
+    .send-img {
+        max-width: 13px;
+        margin-right: 6px;
+
+    }
 }
 
 @media (max-width:600px) {
+
+    .verify-iden .sitebtn,
+    .security-canel-btn {
+        padding: 10px 3px !important;
+        font-size: 13px !important;
+    }
+
+    .amout-num {
+        font-size: 16px;
+    }
+
+    .search-input {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-size: 14px;
+        border-radius: 10px;
+
+    }
+
     .kycproffbox {
         min-height: 120px;
     }
@@ -3432,9 +3506,71 @@
         width: 33px !important;
         height: 33px !important;
     }
+
+    .mx-height.acc-main-box {
+        min-height: 220px;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    .mx-height.acc-main-box .menu-item {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:550px) {
+    .dashboardpage .panelcontentbox .mobile-step-main {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .step-img {
+        max-width: 37px !important;
+        margin-right: 5px !important;
+    }
+
+    .depo-hist-table.sitetable.table tbody tr {
+        padding: 10px;
+    }
+
+    .security-btn,
+    .security-red-btn {
+        font-size: 12px !important;
+    }
+
+    .introbox h4 {
+        font-size: 14px !important;
+        line-height: 4px;
+    }
+
+    .welcomebanner p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .verify-iden.siteformbg .form-select,
+    .siteformbg .form-control,
+    .siteformbg .input-group-text {
+        height: 38px;
+    }
+
+    .securityiconbox {
+        width: 29px !important;
+        height: 28px !important;
+    }
 }
 
 @media (max-width:450px) {
+    .flex-one-cls h2 {
+        font-size: 16px !important;
+    }
 
     .humberbutton {
         width: 50px;
@@ -3477,6 +3613,10 @@
 }
 
 @media(max-width: 400px) {
+    .amout-num {
+        font-size: 14px;
+    }
+
     .nav-label {
         display: none;
     }
@@ -3497,10 +3637,7 @@
         font-size: 13px !important;
     }
 
-    .verify-iden .sitebtn {
-        padding: 10px 3px !important;
-        font-size: 14px !important;
-    }
+
 
     .nav-label {
         font-size: 11px;
@@ -3570,6 +3707,15 @@
 }
 
 @media(max-width: 380px) {
+    .with-amt-select {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .siteformbg label {
+        font-size: 12px !important;
+    }
+
     .features-mob-card .sub-head {
         font-size: 16px;
     }
@@ -3598,9 +3744,9 @@
         padding: 10px 12px;
     }
 
-    .step-img {
-        max-width: 42px !important;
-    }
+
+
+
 
     .dashboardpage .panelcontentbox .qcgo-dash h5 {
         font-size: 14px !important;

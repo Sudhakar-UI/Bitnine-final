@@ -1,6 +1,6 @@
 
 "use client"
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Userheader from '../../components/Userheader';
 import Userfooter from '../../components/Userfooter';
 import Leftsidemenu from '../../components/Leftsidemenu';
@@ -10,25 +10,39 @@ import Simplebar from 'simplebar-react';
 import 'simplebar-react/dist/simplebar.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faChevronDown, faEllipsisVertical, faPen, faTrashCan } from "@fortawesome/free-solid-svg-icons";
 import ResponsiveTable from '../../components/ResponsiveTable';
+import { Dropdown } from "react-bootstrap";
 
 const Desktoppage = () => {
 
     useEffect(() => {
-        // Show the modal when the page loads
+        // Show the modal when the page loadsfaAngleLeft
         setShowModal2(true);
     }, []);
 
     const [showModal1, setShowModal1] = useState(false);
+    const [showModal3, setShowModal3] = useState(false);
     const [showModal2, setShowModal2] = useState(false);
+    const [showModal4, setShowModal4] = useState(false);
 
     const handleClose1 = () => setShowModal1(false);
     const handleShow1 = () => setShowModal1(true);
+    const handleShow3 = () => setShowModal3(true);
+    const handleClose3 = () => setShowModal3(false);
+    const handleShow4 = () => setShowModal4(true);
+    const handleClose4 = () => setShowModal4(false);
+
 
     const handleClose2 = () => setShowModal2(false);
     const handleShow2 = () => setShowModal2(true);
 
     const [activeKey, setActiveKey] = useState('1');
+    const [showWallet, setShowWallet] = useState(false);
+    const [showAccounts, setShowAccounts] = useState(false);
+    const dropdownRef = useRef(null);
+
+
     return (
         <div className="pagecontent gridpagecontent innerpagegrid">
             <div className="backgroundoverlay" id="backgroundoverlay"></div>
@@ -43,6 +57,14 @@ const Desktoppage = () => {
                         <div className="mt-0 panelcontentbox">
                             <Form className="siteformbg">
                                 <div className="stpsflowbox">
+                                    <Button onClick={handleShow4} className="sitebtn btn-sm d-flex align-items-center ms-auto justify-content-center ">
+                                        <Image
+                                            src="/assets/images/wh-plus.svg"
+                                            alt="Logo"
+                                            className="send-img"
+                                        />
+                                        Add whitelist
+                                    </Button>
                                     <div className="d-flex stpsfexbox currentstep">
                                         <div><span className="stpiconb">1</span></div>
                                         <div>
@@ -76,12 +98,177 @@ const Desktoppage = () => {
                                         <div><span className="stpiconb">3</span></div>
                                         <div>
                                             <Form.Group className="form-group">
-                                                <Form.Label>Wallet Addres</Form.Label>
+                                                <div className=' d-flex align-items-center justify-content-between'>
+                                                    <Form.Label >Wallet Addres</Form.Label>
+
+                                                    {/* <span onClick={handleShow2}>Add whitelist</span> */}
+                                                </div>
                                                 <InputGroup>
-                                                    <Form.Control defaultValue="SDAFYTEUWYR645854" className='form-control withdraw-addr' id='walletaddres' readOnly/>
-                                                    <InputGroup.Text id="copyaddress" className="cpybtn">
-                                                        <Link href="#" className=""><Image src="assets/images/copy.svg" alt='icon' width={100} height={100} /></Link>
-                                                    </InputGroup.Text>
+                                                    <Form.Control onClick={() => setShowAccounts(!showAccounts)} className='form-control  position-relative' id='walletaddres' />
+
+
+                                                    {showAccounts && (
+                                                        <div className="mt-2  acc-main-box">
+                                                            <div className='search-box-x'>
+                                                                <Image
+                                                                    src="assets/images/search-icon.svg"
+                                                                    alt="Logo"
+                                                                    className='copy-img'
+                                                                />
+                                                                <Form.Control
+                                                                    placeholder="Search Your Accounts"
+                                                                    className=' border-0 p-0'
+                                                                />
+                                                            </div>
+                                                            <div className='mx-height'>
+                                                                <div className="acc-box active">
+                                                                    <div className="d-flex align-items-center justify-content-between w-100 gap-2">
+                                                                        <div className=' d-flex align-items-center  gap-2'>
+                                                                            <Image
+                                                                                src="/assets/images/user-1.svg"
+                                                                                alt="Logo"
+                                                                                className="user-img"
+                                                                            />
+                                                                            <div>
+                                                                                <p className="sub-head-acc mb-0">Address 1</p>
+                                                                                <small>bc1qdv4...xtpgh</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <Dropdown align="end">
+                                                                            <Dropdown.Toggle
+                                                                                as={FontAwesomeIcon}
+                                                                                icon={faEllipsisVertical}
+                                                                                className="icon-box-x icon-box-long"
+                                                                            />
+
+                                                                            <Dropdown.Menu className="wallet-dropdown">
+
+                                                                                <Dropdown.Item
+                                                                                    className="menu-item p-3 py-2 d-flex align-items-center justify-content-between"
+                                                                                >
+                                                                                    <span>Delete</span>
+                                                                                    <FontAwesomeIcon icon={faTrashCan} />
+                                                                                </Dropdown.Item>
+
+                                                                                <hr />
+
+                                                                                <Dropdown.Item
+                                                                                    className="menu-item p-3 py-2 d-flex align-items-center justify-content-between"
+                                                                                    onClick={handleShow3}
+                                                                                >
+                                                                                    <span>Rename</span>
+                                                                                    <FontAwesomeIcon icon={faPen} />
+                                                                                </Dropdown.Item>
+
+                                                                            </Dropdown.Menu>
+                                                                        </Dropdown>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div className="acc-box ">
+                                                                    <div className="d-flex align-items-center justify-content-between w-100 gap-2">
+                                                                        <div className=' d-flex align-items-center  gap-2'>
+                                                                            <Image
+                                                                                src="/assets/images/user-2.svg"
+                                                                                alt="Logo"
+                                                                                className="user-img"
+                                                                            />
+                                                                            <div>
+                                                                                <p className="sub-head-acc mb-0">Address 2</p>
+                                                                                <small>bc1qdv4...xtpgh</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <FontAwesomeIcon className='icon-box-x icon-box-long position-relative' icon={faEllipsisVertical} />
+
+
+                                                                    </div>
+                                                                </div>
+                                                                <div className="acc-box ">
+                                                                    <div className="d-flex align-items-center justify-content-between w-100 gap-2">
+                                                                        <div className=' d-flex align-items-center  gap-2'>
+                                                                            <Image
+                                                                                src="/assets/images/user-2.svg"
+                                                                                alt="Logo"
+                                                                                className="user-img"
+                                                                            />
+                                                                            <div>
+                                                                                <p className="sub-head-acc mb-0">Address 2</p>
+                                                                                <small>bc1qdv4...xtpgh</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <FontAwesomeIcon className='icon-box-x icon-box-long position-relative' icon={faEllipsisVertical} />
+
+
+                                                                    </div>
+                                                                </div>
+                                                                <div className="acc-box ">
+                                                                    <div className="d-flex align-items-center justify-content-between w-100 gap-2">
+                                                                        <div className=' d-flex align-items-center  gap-2'>
+                                                                            <Image
+                                                                                src="/assets/images/user-2.svg"
+                                                                                alt="Logo"
+                                                                                className="user-img"
+                                                                            />
+                                                                            <div>
+                                                                                <p className="sub-head-acc mb-0">Address 2</p>
+                                                                                <small>bc1qdv4...xtpgh</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <FontAwesomeIcon className='icon-box-x icon-box-long position-relative' icon={faEllipsisVertical} />
+
+
+                                                                    </div>
+                                                                </div>
+                                                                <div className="acc-box ">
+                                                                    <div className="d-flex align-items-center justify-content-between w-100 gap-2">
+                                                                        <div className=' d-flex align-items-center  gap-2'>
+                                                                            <Image
+                                                                                src="/assets/images/user-2.svg"
+                                                                                alt="Logo"
+                                                                                className="user-img"
+                                                                            />
+                                                                            <div>
+                                                                                <p className="sub-head-acc mb-0">Address 2</p>
+                                                                                <small>bc1qdv4...xtpgh</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <Dropdown align="end">
+                                                                            <Dropdown.Toggle
+                                                                                as={FontAwesomeIcon}
+                                                                                icon={faEllipsisVertical}
+                                                                                className="icon-box-x icon-box-long"
+                                                                            />
+
+                                                                            <Dropdown.Menu className="wallet-dropdown">
+
+                                                                                <Dropdown.Item
+                                                                                    className="menu-item p-3 py-2 d-flex align-items-center justify-content-between"
+                                                                                >
+                                                                                    <span>Delete</span>
+                                                                                    <FontAwesomeIcon icon={faTrashCan} />
+                                                                                </Dropdown.Item>
+
+                                                                                <hr />
+
+                                                                                <Dropdown.Item
+                                                                                    className="menu-item p-3 py-2 d-flex align-items-center justify-content-between"
+                                                                                    onClick={handleShow3}
+                                                                                >
+                                                                                    <span>Rename</span>
+                                                                                    <FontAwesomeIcon icon={faPen} />
+                                                                                </Dropdown.Item>
+
+                                                                            </Dropdown.Menu>
+                                                                        </Dropdown>
+
+                                                                        {/* <FontAwesomeIcon className='icon-box-x icon-box-long position-relative' icon={faEllipsisVertical} /> */}
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    )}
                                                 </InputGroup>
                                             </Form.Group>
                                         </div>
@@ -121,6 +308,7 @@ const Desktoppage = () => {
                                             <Form.Group className="form-group m-0 mt-3">
                                                 <Button type="submit" className="sitebtn" id="withdrawsubmit">Withdraw</Button>
                                             </Form.Group>
+
                                         </div>
                                     </div>
                                 </div>
@@ -257,6 +445,176 @@ const Desktoppage = () => {
                     </div>
                 </Modal.Body>
             </Modal>
+            <Modal show={showModal3} onHide={handleClose3} className='modalbgt authmodal qrmodal' aria-labelledby="contained-modal-title-vcenter"
+                centered>
+                <Modal.Header closeButton>
+                    <Modal.Title id="contained-modal-title-vcenter" className='text-center'>
+                        Rename
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <Form.Label>Address name</Form.Label>
+                    <div className='search-box-x'>
+                        <Form.Control
+                            placeholder="Search Address"
+                            className=' border-0 p-0'
+                        />
+                    </div>
+                    <Button type="button" className="sitebtn" id="download">Confirm</Button>
+
+                </Modal.Body>
+            </Modal>
+            <Modal show={showModal4} onHide={handleClose4} className='modalbgt authmodal qrmodal' aria-labelledby="contained-modal-title-vcenter"
+                centered>
+                <Modal.Header closeButton>
+                    <Modal.Title id="contained-modal-title-vcenter" className='text-center'>
+                        Add Whitelist
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body className='theme-pop'>
+                    <Form.Group className="form-group">
+
+                        <div>
+                            <Form.Label>Select Crypto </Form.Label>
+                            <Form.Select className="form-control" id='currency'>
+                                <option>BTC</option>
+                                <option>ETH</option>
+                                <option>SOL</option>
+                                <option>TRX</option>
+                                <option>LTC</option>
+                                <option>AVAX</option>
+                                <option>DOGE</option>
+                            </Form.Select>
+                        </div>
+                        <div className='my-2'>
+                            <Form.Label >Select Network  </Form.Label>
+                            <Form.Select className="form-control" id='currency'>
+                                <option>BTC</option>
+                                <option>ETH</option>
+                                <option>SOL</option>
+                                <option>TRX</option>
+                                <option>LTC</option>
+                                <option>AVAX</option>
+                                <option>DOGE</option>
+                            </Form.Select>
+                        </div>
+                        <div>
+                            <Form.Label >Wallet Address</Form.Label>
+                            <Form.Control id='amount' />
+                        </div>
+                        <div className='mt-2'>
+                            <Form.Label >Account Name</Form.Label>
+                            <Form.Control id='amount' />
+                        </div>
+
+                    </Form.Group>
+
+                    <Button type="button" className="sitebtn" id="download">Confirm</Button>
+
+                </Modal.Body>
+            </Modal>
+            {/* <Modal show={showModal2} onHide={handleClose2} className='modalbgt authmodal qrmodal' aria-labelledby="contained-modal-title-vcenter"
+                centered>
+                <Modal.Header closeButton>
+                    <Modal.Title id="contained-modal-title-vcenter" className='text-center'>
+                        Add whitelist
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <div className='search-box-x'>
+                        <Image
+                            src="assets/images/search-icon.svg"
+                            alt="Logo"
+                            className='copy-img'
+                        />
+                        <Form.Control
+                            placeholder="Search Your Accounts"
+                            className=' border-0 p-0'
+                        />
+                    </div>
+                    <div className='mt-2 mx-height'>
+                        <div className='acc-box active'>
+                            <div className=' d-flex align-items-center w-100 gap-2'>
+                                <Image
+                                    src="assets/images/user-1.svg"
+                                    alt="Logo"
+                                    className='user-img'
+                                />
+                                <div >
+                                    <span className="sub-head">Account 1</span>
+                                    <div className="position-relative" ref={dropdownRef}>
+                                        <div className="copy-box d-flex align-items-center gap-2">
+                                            <FontAwesomeIcon
+                                                className="icon-box-x"
+                                                icon={faChevronDown}
+                                                onClick={() => setShowWallet(!showWallet)}
+                                            />
+
+
+                                        </div>
+
+                                        {showWallet && (
+                                            <div className="wallet-dropdown">
+                                                <div className="wallet-item">
+                                                    <div className="d-flex align-items-center gap-2">
+                                                        <Image src="/assets/images/color/btc.svg" className="wall-img" alt="" />
+                                                        <span>Bitcoin</span>
+                                                    </div>
+                                                    <small>bc1qdv4...xtpgh</small>
+                                                </div>
+
+                                                <div className="wallet-item">
+                                                    <div className="d-flex align-items-center gap-2">
+                                                        <Image src="/assets/images/color/sol.svg" className="wall-img" alt="" />
+                                                        <span>Solana</span>
+                                                    </div>
+                                                    <small>GDuM7Qa...fGXRy</small>
+                                                </div>
+
+                                                <div className="wallet-item">
+                                                    <div className="d-flex align-items-center gap-2">
+                                                        <Image src="/assets/images/color/trx.svg" className="wall-img" alt="" />
+                                                        <span>Tron</span>
+                                                    </div>
+                                                    <small>TW5YCJw...cxe4S</small>
+                                                </div>
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className=' d-flex align-items-center gap-2'>
+                                <p className='mb-0'>$0.00</p>
+                                <FontAwesomeIcon className='icon-box-x icon-box-long' icon={faEllipsisVertical} />
+                            </div>
+
+
+                        </div>
+                        <div className='acc-box'>
+                            <div className=' d-flex align-items-center gap-2'>
+                                <Image
+                                    src="assets/images/user-2.svg"
+                                    alt="Logo"
+                                    className='user-img'
+                                />
+                                <div className="sub-head">
+                                    Account 2
+                                </div>
+                            </div>
+                            <p className='mb-0'>$0.00</p>
+
+                        </div>
+                        <Button className="sitebtn d-flex align-items-center justify-content-center mt-3">
+                            <Image
+                                src="assets/images/wh-plus.svg"
+                                alt="Logo"
+                                className='send-img'
+                            />
+                            Add Token</Button>
+
+                    </div>
+                </Modal.Body>
+            </Modal> */}
         </div>
     );
 }
